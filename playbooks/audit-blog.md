@@ -1,23 +1,21 @@
-# Audit Blog
+# Audit Blog Playbook
 
 ## Objective
 
-Audit an existing ProplogAI article.
+## Required Knowledge
 
-## Read First
+## Required Skills
 
-knowledge/01-brand.md
+## Required Templates
 
-knowledge/02-beginner-first.md
+## Required Checklist
 
-skills/audit/content-auditor.md
+## Inputs
 
-templates/audit-report.md
+## Workflow
 
-## Task
+## Deliverables
 
-Audit the provided article.
+## Completion Criteria
 
-Do not rewrite.
-
-Return the audit report.
+## Next Step

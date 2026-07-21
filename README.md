@@ -20,6 +20,8 @@ The AI should prioritize:
 ```
 README
     ↓
+00-system-rules.md
+    ↓
 Knowledge
     ↓
 Skills
