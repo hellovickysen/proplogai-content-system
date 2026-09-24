@@ -12,6 +12,7 @@ Use the approved trading-journal-template cover as the visual benchmark for futu
 - Do not place readable generated text, logos, profit figures, money piles, rockets, exaggerated gains, or outcome claims inside the artwork.
 - Match the article topic instead of reusing the same chart arrangement mechanically. Preserve the visual family while varying the composition and teaching objects.
 - Use a 16:9 cover and verify the crop on desktop and mobile in the existing PropLogAI article layout.
+- Deliver and publish blog covers as `.webp`. Keep the approved source artwork outside the public build when a lossless master is needed, and verify the final WebP dimensions, visual quality, file size, and rendered path before release.
 
 ## In-article visuals
 

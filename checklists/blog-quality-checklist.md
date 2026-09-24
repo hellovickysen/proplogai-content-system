@@ -66,6 +66,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 ## 7. Visual Learning — 10
 
 - [ ] The 16:9 cover follows `knowledge/06-visual-design.md` and has been checked in the existing PropLogAI desktop and mobile article layout.
+- [ ] The published cover uses WebP, loads from the final article path, and has been checked for dimensions, visual quality, and file size.
 - [ ] A visual, table, diagram, or comparison is used or recommended only when it improves understanding.
 - [ ] Every recommendation has a teaching purpose and accessible alt-text direction.
 - [ ] Visuals avoid unsupported performance or safety implications.
