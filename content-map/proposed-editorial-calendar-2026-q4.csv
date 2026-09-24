@@ -1,0 +1,13 @@
+slot,not_before,opportunity_id,content_type,action,working_title,topic_cluster,reason,dependencies,status
+Pilot,2026-09-28,G1-007,Blog,Create,Trading Journal Template for Prop Firm Traders,Trading Journaling and Reviews,Low source risk with live US demand and clear separation from the fields guide,Human brief approval,Proposed
+Week 2,2026-10-05,G1-001,Glossary,Update,What Is Overtrading?,Trading Discipline and Rulebooks,Direct GSC definition demand and a clear blog application path,Pilot review complete,Proposed
+Week 3,2026-10-12,G1-004,Blog,Update,How to Track Prop Firm Expenses,"Prop Firm Costs, Payouts, and ROI",Closest current striking-distance page in GSC,Current product and cost examples checked,Proposed
+Week 4,2026-10-19,G1-003,Glossary,Update,What Is Drawdown in a Prop Firm?,Risk and Drawdown,Direct GSC definition demand and a complete drawdown path,Current variation language checked,Proposed
+Week 5,2026-10-26,G1-002,Blog,Update,Prop Firm Consistency Calculator Guide,Prop Firm Rules and Readiness,Multiple GSC queries and a clear guide-versus-tool distinction,Formula specification and firm-source review,Proposed
+Week 6,2026-11-02,G1-005,Blog,Update and consolidate,Prop Firm Trading Journal Guide,Trading Journaling and Reviews,Preferred journal pillar with split query ownership,Human decision on benefits-page consolidation,Proposed
+Week 7,2026-11-09,G1-009,Blog,Create,How to Read Trading Performance Metrics,Trading Performance Metrics,Fills the missing pillar for seven performance definitions,Source plan for every metric and limitation,Proposed
+Week 8,2026-11-16,G1-010,Blog,Create,Trading Expectancy Calculator and Formula,Trading Performance Metrics,Low-difficulty utility opportunity supporting the new pillar,Deterministic formula specification and performance pillar live,Proposed
+Week 9,2026-11-23,G1-013,Blog,Update,How to Stop the Revenge-Trading Cycle,Trading Psychology and Emotions,Existing GSC signal with a safe workflow angle,Behaviour sources and no app-stop promise,Proposed
+Week 10,2026-11-30,G1-008,Blog,Create,Prop Firm Rules Explained,Prop Firm Rules and Readiness,Low-difficulty pillar opportunity with strong product relevance,Approved first-party source plan with expiry dates,Proposed
+Week 11,2026-12-07,G1-012,Blog,Create,How Prop Firm Payout Rules Work,"Prop Firm Costs, Payouts, and ROI",Relevant low-difficulty query with clear reader need,Named firm and program sources with expiry dates,Proposed
+Week 12,2026-12-14,G1-014,Blog,Create,Trading Discipline Checklist,Trading Discipline and Rulebooks,Useful checklist support after higher-evidence work is complete,Fresh demand validation and overlap review,Proposed

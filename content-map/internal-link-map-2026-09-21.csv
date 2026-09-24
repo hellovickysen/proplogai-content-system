@@ -1,0 +1,25 @@
+from_url,to_url,relationship,status,evidence
+https://proplogai.com/blogs/prop-firm-trading-journal,https://proplogai.com/glossary/trading-journal,guide_to_definition,implemented_local,First useful definition mention
+https://proplogai.com/glossary/trading-journal,https://proplogai.com/blogs/prop-firm-trading-journal,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/blogs/overtrading-prop-firm-challenges,https://proplogai.com/glossary/overtrading,guide_to_definition,implemented_local,First useful definition mention
+https://proplogai.com/glossary/overtrading,https://proplogai.com/blogs/overtrading-prop-firm-challenges,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/blogs/prop-firm-consistency-calculator,https://proplogai.com/glossary/consistency-rule,guide_to_definition,implemented_local,First useful definition mention
+https://proplogai.com/glossary/consistency-rule,https://proplogai.com/blogs/prop-firm-consistency-calculator,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/blogs/prop-firm-consistency-calculator,https://proplogai.com/tools/consistency-calculator,guide_to_utility,implemented_local,Calculation task separated from explanation
+https://proplogai.com/blogs/revenge-trading-prop-firm,https://proplogai.com/glossary/revenge-trading,guide_to_definition,implemented_local,First useful definition mention
+https://proplogai.com/glossary/revenge-trading,https://proplogai.com/blogs/revenge-trading-prop-firm,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/blogs/daily-drawdown-calculator,https://proplogai.com/glossary/daily-drawdown-limit,guide_to_definition,implemented_local,First useful definition mention
+https://proplogai.com/blogs/daily-drawdown-calculator,https://proplogai.com/glossary/overall-drawdown-limit,guide_to_related_definition,implemented_local,Daily versus overall rule distinction
+https://proplogai.com/glossary/drawdown,https://proplogai.com/blogs/daily-drawdown-calculator,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/glossary/daily-drawdown-limit,https://proplogai.com/blogs/daily-drawdown-calculator,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/glossary/overall-drawdown-limit,https://proplogai.com/blogs/daily-drawdown-calculator,definition_to_guide,implemented_local,Glossary practical-guide card
+https://proplogai.com/blogs/forex-journal-funded-accounts,https://proplogai.com/blogs/prop-firm-trading-journal,support_to_pillar,implemented_local,Funded-account workflow narrowed under journal pillar
+https://proplogai.com/blogs/trading-journal-fields,https://proplogai.com/blogs/prop-firm-trading-journal,support_to_pillar,implemented_local,Fields article points to journal pillar
+https://proplogai.com/blogs/prop-firm-trading-journal,https://proplogai.com/blogs/prop-firm-pnl-calendar,pillar_to_support,implemented_local,Incorrect legacy destination repaired
+https://proplogai.com/blogs/prop-firm-trading-journal,https://proplogai.com/blogs/tracking-trading-emotions,pillar_to_support,implemented_local,Weak legacy emotion destination replaced
+https://proplogai.com/blogs/trading-psychology-prop-firm,https://proplogai.com/blogs/tracking-trading-emotions,pillar_to_support,implemented_local,Neutral emotion-tracking guide selected
+https://proplogai.com/blogs/trading-emotions-account-killer,https://proplogai.com/blogs/tracking-trading-emotions,legacy_to_preferred_support,implemented_local,Legacy cross-link moved to approved workflow
+https://proplogai.com/blogs/ai-trading-coach-prop-firm,https://proplogai.com/blogs/ai-journal-pattern-detection,pillar_to_support,implemented_local,Mechanics intent separated
+https://proplogai.com/blogs/ai-trading-coach-prop-firm,https://proplogai.com/blogs/ai-trading-discipline,pillar_to_support,implemented_local,Discipline workflow intent separated
+https://proplogai.com/blogs/prop-firm-expense-tracking-guide,https://proplogai.com/blogs/prop-firm-roi-calculator,support_to_calculator_guide,verified_existing,Record keeping separated from ROI calculation
+https://proplogai.com/blogs/prop-firm-roi-calculator,https://proplogai.com/blogs/prop-firm-expense-tracking-guide,calculator_guide_to_support,verified_existing,Reciprocal reader path already present

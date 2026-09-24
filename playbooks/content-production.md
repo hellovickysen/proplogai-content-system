@@ -2,179 +2,31 @@
 
 ## Objective
 
-Manage the complete content production workflow for ProplogAI.
+Produce one validated local PropLogAI blog or glossary draft for human review. Do not call Airtable, a CMS, GitHub, or production.
 
-You are responsible for processing the content backlog from Airtable and producing publish-ready content using the repository standards.
+## Entry point
 
----
+Use `prompts/run-daily-content.md`. Read `docs/content-schema.md` and `docs/seo-portfolio-contract.md` before selecting work.
 
-# Source of Truth
+## Input
 
-Before starting:
+Select exactly one human-approved brief with `status: "Ready for Production"`. Process one primary item at a time unless a human explicitly changes capacity.
 
-1. Read README.md
-2. Read all files in /knowledge
-3. Read all files in /knowledge/editorial
-4. Read the Gold Standard examples
-5. Read the Blog Quality Checklist
+## Workflow
 
-These documents define the company's standards.
+1. Complete `checklists/pre-generation-checklist.md`.
+2. Use the relevant blog, glossary, new-content, or rewrite playbook.
+3. Have the SEO Editor update the article register and create the exact-anchor link plan.
+4. Draft with `templates/article-output.md` plus the relevant body template.
+5. Fact-check every sensitive claim against current source-register rows.
+6. Have the SEO Editor insert links and reconcile both registers.
+7. Run the QA Reviewer with `checklists/blog-quality-checklist.md`.
+8. Revise until QA is at least 90, Accuracy and Safety are each at least 9, and no automatic failure remains.
+9. Create the revision hash and run `scripts/validate-content.ps1` and `scripts/validate-system.ps1`.
+10. Move the passing exact revision to `Human Review`.
 
----
+## Stop conditions
 
-# Input
+Stop and set the matching status when a brief, source, fact check, formula verification, or ownership decision is missing. Never create filler to meet a daily quota.
 
-The production queue comes from Airtable.
-
-Process every record where:
-
-Status = Ready for Production
-
-Sort by:
-
-1. Priority (Highest first)
-2. Last Updated
-3. Created Date
-
----
-
-# Determine Content Type
-
-For each Airtable record determine:
-
-- Rewrite Existing Blog
-- New Blog
-- Glossary Page
-- Pillar Page
-- Landing Page
-- Comparison Article
-
----
-
-# Workflow
-
-## If Rewrite
-
-Execute:
-
-playbooks/rewrite-existing-blog.md
-
----
-
-## If New Blog
-
-Execute:
-
-playbooks/write-new-blog.md
-
----
-
-## After Content Is Generated
-
-Always execute:
-
-skills/qa/qa-reviewer.md
-
----
-
-# QA Rule
-
-If QA Score < 90
-
-Return to the writing workflow.
-
-Improve the article.
-
-Run QA again.
-
-Repeat until QA ≥ 90.
-
-Never publish below 90.
-
----
-
-# Required Output
-
-For every completed record produce:
-
-## Article
-
-Publish-ready Markdown.
-
----
-
-## SEO
-
-- SEO Title
-- Meta Description
-- URL Slug
-
----
-
-## Images
-
-Recommend:
-
-- Hero image
-- In-article visuals
-- Infographics
-- Interactive components
-
----
-
-## Internal Linking
-
-Recommend:
-
-- Existing articles to link
-- New glossary links
-
----
-
-## Publish Checklist
-
-Confirm:
-
-- Beginner Friendly
-- SEO Optimized
-- Grammar Checked
-- Internal Links Added
-- FAQ Added
-- CTA Added
-- QA Passed
-
----
-
-# Airtable Update
-
-When complete update the record:
-
-Status → Completed
-
-QA Score
-
-Completion Date
-
-Notes
-
----
-
-# Continue
-
-Move to the next record.
-
-Repeat until there are no remaining records with:
-
-Status = Ready for Production
-
----
-
-# Stop Condition
-
-Only stop when:
-
-- Production queue is empty
-- A required input is missing
-- Human approval is explicitly required
-
-Otherwise continue automatically.
+AI QA is not human approval. Only a named human may complete `checklists/pre-publish-checklist.md` and set `Approved to Publish` for the exact revision and hash.

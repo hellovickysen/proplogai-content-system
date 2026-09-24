@@ -1,23 +1,23 @@
-# What is ProplogAI?
+# PropLogAI Product Knowledge
 
-# Mission
+## Confirmed editorial position
 
-# Product Overview
+PropLogAI helps prop-firm traders journal trades, review discipline, identify recurring patterns in their own records, and choose a practical next focus. Public pages currently describe AI coaching, journaling, psychology, discipline, performance review, expenses, payouts, trophies, account tracking, tools, and calculators.
 
-# Core Features
+Use the current production site or approved product documentation before describing any specific workflow. Product details can change.
 
-# Target Users
+## Editorial boundaries
 
-# Problems We Solve
+- AI analyses the user's own journal information; it does not predict the market.
+- Discipline means following defined rules and review practices; it is not inferred from P&L alone.
+- A calculator explains inputs and formulas; it does not determine eligibility unless every current firm rule is represented.
+- A journal record is evidence for review, not proof of causation.
 
-# Our Philosophy
+## Approved topic areas
 
-# What Makes Us Different
+Trading journaling, trading discipline, trading psychology, prop-firm rules, risk concepts, performance metrics, expenses and ROI, review templates, calculators, and responsible AI-assisted coaching.
 
-# Brand Promise
+## Current public content hubs
 
-# Product Principles
-
-# Future Vision
-
-# How AI Should Mention ProplogAI
+- Blog: `https://proplogai.com/blogs`
+- Glossary: `https://proplogai.com/glossary`

@@ -1,216 +1,33 @@
-# ProplogAI Brand Knowledge
+# PropLogAI Brand
 
-> This document defines the identity, philosophy, values, and content principles of ProplogAI. Every AI skill must follow these guidelines before generating, reviewing, or improving any content.
+## Positioning
 
----
+PropLogAI is an AI-powered trading journal and discipline coach for prop-firm traders. It helps users review their own data, detect recurring rulebook breaches and behaviour patterns, and identify a plain-language next focus.
 
-# Mission
+It is not a trade-signal provider, profit predictor, prop firm, broker, or substitute for financial advice.
 
-Help every trader become disciplined and consistently profitable by building better trading habits, not by chasing perfect strategies.
+## Audience
 
-ProplogAI exists to transform traders from emotional decision-makers into disciplined professionals through education, journaling, analytics, accountability, and structured review.
+Primary market: India. Write in clear Indian English for Indian prop-firm traders and use IST when it helps the reader's task. Forex and prop-firm trading amounts use USD with the `$` symbol; never substitute INR merely because the audience is Indian.
 
-We believe consistency is built through habits, not luck.
+- Traders preparing for a prop-firm challenge
+- Traders in an evaluation or funded account
+- Traders who repeatedly break their own risk or execution rules
+- Journal users who need a repeatable review process
+- Beginners learning prop-firm terminology and constraints
 
----
+Readers from other countries remain welcome. Create country-specific content only when separate evidence shows a materially different reader task.
 
-# Vision
+## Voice
 
-Become the world's most trusted learning platform for forex and prop firm traders.
+Calm, practical, respectful, specific, and non-judgmental. Explain mistakes as observable behaviour patterns. Avoid guru language, shame, hype, fear, and false certainty.
 
-Our long-term goal is to help millions of traders develop professional trading habits through education, interactive learning, AI-powered journaling, and performance analysis.
+## Content value
 
-ProplogAI should be known as the place where traders learn discipline—not just another trading journal.
+Every piece should help the reader understand a concept, inspect their own process, record better evidence, or take one safer next step. Product mentions are optional and must fit the reader's task.
 
----
+## Product language
 
-# Target Audience
+Prefer: journal review, rule adherence, recurring pattern, behaviour, discipline process, evidence, practice, and next focus.
 
-## Primary Audience
-
-- Beginner forex traders
-- Beginner prop firm traders
-- Traders preparing for funded challenges
-- Traders who repeatedly fail challenges
-- Traders struggling with discipline
-- Traders who want to build professional habits
-
-## Secondary Audience
-
-- Intermediate traders
-- Funded traders
-- Trading coaches
-- Trading educators
-
----
-
-# Problems We Solve
-
-Our content should always solve real trader problems.
-
-Examples include:
-
-- Overtrading
-- Revenge trading
-- FOMO
-- Poor risk management
-- Lack of discipline
-- No trading journal
-- No review process
-- Emotional decision making
-- Inconsistent lot sizing
-- Poor trading routines
-- Failing prop firm challenges
-- Chasing indicators instead of building habits
-
-Always connect educational content back to solving one or more of these problems.
-
----
-
-# Core Values
-
-Everything ProplogAI creates should reflect these values.
-
-- Discipline over emotions.
-- Process over profits.
-- Consistency over perfection.
-- Learning over guessing.
-- Simplicity over complexity.
-- Education before promotion.
-- Evidence before opinion.
-- Long-term thinking over quick wins.
-
----
-
-# Brand Personality
-
-ProplogAI should feel like:
-
-- A patient mentor.
-- A professional trading coach.
-- A supportive accountability partner.
-- Calm under pressure.
-- Honest and realistic.
-- Encouraging without exaggeration.
-
-Never sound arrogant.
-
-Never sound like a signal seller.
-
-Never promise profits.
-
----
-
-# Brand Voice
-
-Always write in a tone that is:
-
-- Beginner friendly
-- Practical
-- Educational
-- Encouraging
-- Professional
-- Clear
-- Honest
-- Actionable
-
-Every article should feel like an experienced mentor teaching a beginner.
-
----
-
-# Positioning
-
-ProplogAI is NOT:
-
-- A signal provider.
-- A trading guru.
-- A "get rich quick" platform.
-- A strategy-selling website.
-- A prediction platform.
-
-ProplogAI IS:
-
-- A trading journal.
-- A discipline platform.
-- A trading education platform.
-- A habit-building system.
-- A trader improvement platform.
-
----
-
-# Competitors
-
-Examples include:
-
-- Tradervue
-- Edgewonk
-- TraderSync
-- TradeZella
-- TradesViz
-
-We do not copy competitors.
-
-Instead, we differentiate ourselves by focusing on:
-
-- Beginner education
-- Interactive learning
-- Trading psychology
-- Prop firm success
-- Discipline systems
-- AI-assisted journaling
-
----
-
-# Things We Never Do
-
-Never:
-
-- Promise guaranteed profits.
-- Promise funded accounts.
-- Promise high win rates.
-- Promote gambling behaviour.
-- Encourage overtrading.
-- Recommend increasing risk after losses.
-- Use clickbait.
-- Use fear-based marketing.
-- Shame losing traders.
-- Present opinions as facts.
-
----
-
-# Success Metrics
-
-Our content is successful when readers:
-
-- Understand difficult concepts easily.
-- Stay engaged until the end.
-- Learn something practical.
-- Feel more confident.
-- Build better trading habits.
-- Explore related educational content.
-- Return to ProplogAI for future learning.
-- Naturally discover ProplogAI features through educational content.
-
-Traffic alone is not success.
-
-Helping traders improve is success.
-
----
-
-# AI Instructions
-
-Every AI skill must follow this document before producing output.
-
-Whenever there is a conflict between creativity and clarity:
-
-Choose clarity.
-
-Whenever there is a conflict between SEO and education:
-
-Choose education.
-
-Whenever there is a conflict between promotion and helping the reader:
-
-Choose helping the reader.
-
-Every decision should support ProplogAI's mission of creating disciplined traders.
+Avoid: winning system, guaranteed consistency, profitable trader, pass your challenge, eliminate losses, predict trades, or AI signals.

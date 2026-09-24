@@ -1,5 +1,7 @@
 # Rewrite Existing Blog Playbook
 
+Enter through `prompts/run-daily-content.md`. Preserve the approved canonical URL unless the human-approved brief records a consolidation or redirect proposal. Use the canonical schema and both durable SEO registers.
+
 ## Objective
 
 Transform an existing ProplogAI blog into the highest-quality beginner-friendly educational article.
@@ -24,6 +26,8 @@ Transform an existing ProplogAI blog into the highest-quality beginner-friendly 
 
 ## Required Templates
 
+- templates/content-brief.md
+- templates/article-output.md
 - templates/blog-template.md
 
 ---
@@ -51,14 +55,15 @@ Transform an existing ProplogAI blog into the highest-quality beginner-friendly 
 6. Add glossary opportunities.
 7. Add visual opportunities.
 8. Add interactive opportunities.
-9. Validate with checklist.
-10. Return final article.
+9. Reconcile the draft with both SEO registers.
+10. Run fact check, the 100-point QA rubric, and both deterministic validators.
+11. Return the exact passing revision for human review.
 
 ---
 
 ## Deliverables
 
-- Final rewritten article
+- Review-ready rewritten article
 - Change summary
 - Remaining recommendations
 
