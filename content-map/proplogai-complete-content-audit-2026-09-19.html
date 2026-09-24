@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete Phase 2 audit of the PropLogAI blog and glossary, based on a 19 September 2026 live-site snapshot.">
+  <title>PropLogAI Complete Content Audit — 19 September 2026</title>
+  <style>
+    :root {
+      --ink: #13233a;
+      --muted: #5f6f82;
+      --paper: #f7f4ec;
+      --surface: #ffffff;
+      --line: #dfe5e8;
+      --teal: #087f73;
+      --teal-soft: #e4f4f0;
+      --amber: #d77b16;
+      --amber-soft: #fff2dc;
+      --red: #bc3d47;
+      --red-soft: #fdecef;
+      --navy: #10243f;
+      --green: #27835b;
+      --shadow: 0 14px 38px rgba(16, 36, 63, .08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.62 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--teal); text-underline-offset: 3px; }
+    a:hover { color: var(--navy); }
+    h1, h2, h3 { line-height: 1.18; letter-spacing: -.025em; }
+    h1 { margin: 0; font-size: clamp(2.35rem, 6vw, 5.2rem); max-width: 960px; }
+    h2 { margin: 0 0 1rem; font-size: clamp(1.75rem, 3vw, 2.7rem); }
+    h3 { margin: 0 0 .6rem; font-size: 1.12rem; }
+    p { margin: .35rem 0 1rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .9em; }
+    .wrap { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      background:
+        radial-gradient(circle at 88% 14%, rgba(24, 184, 157, .28), transparent 28%),
+        radial-gradient(circle at 16% 88%, rgba(215, 123, 22, .2), transparent 26%),
+        var(--navy);
+      padding: 76px 0 64px;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .07;
+      background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px);
+      background-size: 44px 44px;
+      pointer-events: none;
+    }
+    .hero .wrap { position: relative; z-index: 1; }
+    .eyebrow {
+      display: inline-flex;
+      gap: .5rem;
+      align-items: center;
+      margin-bottom: 22px;
+      color: #8ce4d2;
+      font-size: .8rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+    .hero-copy { max-width: 790px; color: #d7e0eb; font-size: 1.08rem; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .pill { border: 1px solid rgba(255,255,255,.22); border-radius: 999px; padding: 7px 12px; color: #e8eef5; font-size: .82rem; }
+
+    .toc {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      overflow-x: auto;
+      background: rgba(255,255,255,.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+    .toc .wrap { display: flex; gap: 22px; min-width: max-content; padding-top: 12px; padding-bottom: 12px; }
+    .toc a { color: var(--ink); text-decoration: none; font-size: .84rem; font-weight: 750; }
+
+    main { padding-bottom: 80px; }
+    section { padding: 64px 0 0; scroll-margin-top: 52px; }
+    .section-lead { max-width: 820px; color: var(--muted); font-size: 1.04rem; }
+    .callout {
+      margin-top: 22px;
+      border-left: 5px solid var(--red);
+      border-radius: 12px;
+      background: var(--red-soft);
+      padding: 20px 22px;
+      box-shadow: var(--shadow);
+    }
+    .callout strong { color: #8f2732; }
+
+    .overview {
+      display: grid;
+      grid-template-columns: 270px 1fr;
+      gap: 26px;
+      align-items: stretch;
+      margin-top: 28px;
+    }
+    .score-card, .panel, .metric, .finding, .road-step {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+    .score-card { display: grid; place-items: center; padding: 28px 18px; text-align: center; }
+    .score-ring {
+      --score: 59;
+      width: 162px;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: conic-gradient(var(--amber) calc(var(--score) * 1%), #e9edf0 0);
+      position: relative;
+    }
+    .score-ring::after { content: ""; position: absolute; inset: 14px; border-radius: 50%; background: #fff; }
+    .score-value { position: relative; z-index: 1; font-size: 2.4rem; font-weight: 850; line-height: 1; }
+    .score-value small { display: block; margin-top: 8px; color: var(--muted); font-size: .75rem; font-weight: 700; }
+    .status { margin-top: 18px; color: var(--red); font-weight: 850; text-transform: uppercase; letter-spacing: .09em; font-size: .72rem; }
+
+    .metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .metric { padding: 20px; }
+    .metric b { display: block; margin-bottom: 5px; font-size: 1.8rem; line-height: 1; }
+    .metric span { color: var(--muted); font-size: .84rem; }
+    .metric.good { border-top: 4px solid var(--green); }
+    .metric.bad { border-top: 4px solid var(--red); }
+    .metric.warn { border-top: 4px solid var(--amber); }
+
+    .panel { padding: 24px; }
+    .bars { display: grid; gap: 16px; margin-top: 26px; }
+    .bar-row { display: grid; grid-template-columns: minmax(180px, 280px) 1fr 66px; gap: 14px; align-items: center; }
+    .bar-label { font-weight: 730; font-size: .9rem; }
+    .bar-track { height: 12px; border-radius: 999px; background: #e9edf0; overflow: hidden; }
+    .bar-fill { height: 100%; width: var(--pct); border-radius: inherit; background: var(--teal); }
+    .bar-fill.low { background: var(--red); }
+    .bar-fill.mid { background: var(--amber); }
+    .bar-score { text-align: right; color: var(--muted); font-weight: 750; font-variant-numeric: tabular-nums; }
+
+    .findings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+    .finding { padding: 23px; position: relative; overflow: hidden; }
+    .finding::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--red); }
+    .finding p { color: var(--muted); }
+    .evidence { display: inline-block; border-radius: 7px; background: var(--red-soft); color: #8f2732; padding: 4px 8px; font-size: .78rem; font-weight: 780; }
+    .action { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .9rem; }
+    .action strong { color: var(--teal); }
+
+    .table-wrap { overflow-x: auto; margin-top: 24px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: var(--shadow); }
+    table { width: 100%; border-collapse: collapse; min-width: 820px; }
+    th, td { padding: 14px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { background: #edf3f4; color: var(--navy); font-size: .76rem; letter-spacing: .07em; text-transform: uppercase; }
+    td { font-size: .9rem; }
+    tr:last-child td { border-bottom: 0; }
+    .badge { display: inline-block; border-radius: 999px; padding: 3px 9px; font-size: .72rem; font-weight: 850; letter-spacing: .05em; }
+    .badge.p1 { color: #8f2732; background: var(--red-soft); }
+    .badge.p2 { color: #8b520f; background: var(--amber-soft); }
+    .badge.pass { color: #145f42; background: #e5f5ed; }
+    .url { max-width: 300px; overflow-wrap: anywhere; }
+
+    .claim-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; margin-top: 24px; }
+    .claim { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+    .claim code { color: var(--teal); font-weight: 750; }
+    .claim p { margin: 8px 0 0; color: var(--muted); font-size: .9rem; }
+
+    .strengths { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin-top: 26px; }
+    .strength { border-radius: 12px; background: var(--teal-soft); padding: 18px; color: #12534b; }
+    .strength b { display: block; font-size: 1.28rem; color: #0d6f65; }
+
+    .cluster { margin-top: 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; overflow: hidden; }
+    .cluster summary { cursor: pointer; list-style: none; padding: 18px 20px; font-weight: 820; background: #edf3f4; }
+    .cluster summary::-webkit-details-marker { display: none; }
+    .cluster summary::after { content: "+"; float: right; color: var(--teal); font-size: 1.25rem; }
+    .cluster[open] summary::after { content: "−"; }
+    .cluster-body { padding: 18px 20px 20px; }
+    .cluster-body ul { margin: 0; padding-left: 20px; }
+
+    .roadmap { counter-reset: road; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; margin-top: 26px; }
+    .road-step { counter-increment: road; padding: 22px 22px 22px 68px; position: relative; }
+    .road-step::before {
+      content: counter(road);
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: var(--navy);
+      color: white;
+      font-weight: 850;
+    }
+    .road-step p { color: var(--muted); font-size: .9rem; margin-bottom: 0; }
+
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 12px; }
+    .filter-btn { border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--ink); padding: 8px 14px; cursor: pointer; font: inherit; font-size: .82rem; font-weight: 780; }
+    .filter-btn[aria-pressed="true"] { color: #fff; background: var(--navy); border-color: var(--navy); }
+    .queue-row[hidden] { display: none; }
+
+    .limits { border-radius: 14px; padding: 22px; background: var(--amber-soft); border: 1px solid #f2d6a8; }
+    .limits ul { margin-bottom: 0; }
+    footer { margin-top: 72px; padding: 34px 0; color: #cad5e1; background: var(--navy); }
+    footer p { margin: 0; }
+    .small { color: var(--muted); font-size: .82rem; }
+    .print-note { margin-top: 18px; color: var(--muted); font-size: .82rem; }
+
+    @media (max-width: 820px) {
+      .hero { padding-top: 54px; }
+      .overview, .findings, .claim-grid, .roadmap { grid-template-columns: 1fr; }
+      .metrics, .strengths { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .bar-row { grid-template-columns: 1fr 54px; }
+      .bar-track { grid-row: 2; grid-column: 1 / -1; }
+    }
+    @media (max-width: 520px) {
+      .wrap { width: min(100% - 24px, 1180px); }
+      .metrics, .strengths { grid-template-columns: 1fr; }
+      section { padding-top: 48px; }
+    }
+    @media print {
+      body { background: #fff; font-size: 10pt; }
+      .hero { padding: 28px 0; background: var(--navy) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .hero h1 { font-size: 32pt; }
+      .toc, .filters, .print-note { display: none !important; }
+      section { padding-top: 28px; break-inside: avoid; }
+      .score-card, .panel, .metric, .finding, .road-step, .table-wrap { box-shadow: none; }
+      .finding, .metric, .road-step, tr { break-inside: avoid; }
+      .cluster { break-inside: avoid; }
+      .cluster-body { display: block !important; }
+      a { color: inherit; text-decoration: none; }
+      footer { margin-top: 34px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Phase 2 · Full content audit</div>
+      <h1>PropLogAI blog &amp; glossary audit</h1>
+      <p class="hero-copy">A live-site, page-level assessment of content quality, trust, safety, SEO structure, internal linking, brand consistency, and readiness for controlled content automation.</p>
+      <div class="hero-meta">
+        <span class="pill">Evidence snapshot: 19 September 2026</span>
+        <span class="pill">61 unique pages</span>
+        <span class="pill">24 blogs · 35 glossary terms</span>
+        <span class="pill">Local report · no production edits</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Report sections">
+    <div class="wrap">
+      <a href="#summary">Summary</a>
+      <a href="#score">Score</a>
+      <a href="#p1">P1 findings</a>
+      <a href="#claims">Sensitive claims</a>
+      <a href="#p2">P2 findings</a>
+      <a href="#overlap">Intent map</a>
+      <a href="#strengths">Strengths</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#queue">Action queue</a>
+      <a href="#method">Method</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="summary">
+      <div class="wrap">
+        <span class="eyebrow" style="color:var(--teal)">Executive decision</span>
+        <h2>Repair the system before scaling content production</h2>
+        <p class="section-lead">PropLogAI has a useful topical foundation and healthy crawl paths. The library is not ready for automated publishing because its trust and governance layer is incomplete: source coverage is absent, article semantics are inconsistent, dates and structured data are missing, content types are disconnected, and several changing prop-firm rules are written as universal facts.</p>
+        <div class="callout"><strong>Decision:</strong> pause new automated publishing. Fix the shared templates and high-risk glossary definitions, rerun the audit, and only then start a small human-approved blog and glossary pilot.</div>
+
+        <div class="overview">
+          <article class="score-card" aria-label="Overall score 59 out of 100">
+            <div class="score-ring"><div class="score-value">59<small>out of 100</small></div></div>
+            <div class="status">Fail · remediation required</div>
+          </article>
+          <div class="metrics">
+            <article class="metric good"><b>61/61</b><span>Audited pages returned HTTP 200</span></article>
+            <article class="metric good"><b>64/64</b><span>Internal destinations returned 200 without redirects</span></article>
+            <article class="metric bad"><b>0/59</b><span>Content pages link to an external source</span></article>
+            <article class="metric bad"><b>0/61</b><span>Pages contain JSON-LD structured data</span></article>
+            <article class="metric bad"><b>18/24</b><span>Blog articles render duplicate H1 elements</span></article>
+            <article class="metric warn"><b>33</b><span>P1 pages or sitewide audit items</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="score">
+      <div class="wrap">
+        <h2>Score breakdown</h2>
+        <p class="section-lead">The score rewards useful coverage, clarity, and healthy crawl mechanics. It falls mainly on factual support, cross-link architecture, brand consistency, and operational metadata.</p>
+        <div class="panel bars" role="img" aria-label="Nine audit category scores">
+          <div class="bar-row"><span class="bar-label">Intent and usefulness</span><div class="bar-track"><div class="bar-fill" style="--pct:80%"></div></div><span class="bar-score">12/15</span></div>
+          <div class="bar-row"><span class="bar-label">Factual accuracy and sources</span><div class="bar-track"><div class="bar-fill low" style="--pct:25%"></div></div><span class="bar-score">5/20</span></div>
+          <div class="bar-row"><span class="bar-label">Safety and advice boundary</span><div class="bar-track"><div class="bar-fill mid" style="--pct:60%"></div></div><span class="bar-score">9/15</span></div>
+          <div class="bar-row"><span class="bar-label">Beginner clarity and readability</span><div class="bar-track"><div class="bar-fill" style="--pct:87%"></div></div><span class="bar-score">13/15</span></div>
+          <div class="bar-row"><span class="bar-label">Structure and examples</span><div class="bar-track"><div class="bar-fill" style="--pct:80%"></div></div><span class="bar-score">8/10</span></div>
+          <div class="bar-row"><span class="bar-label">SEO and uniqueness</span><div class="bar-track"><div class="bar-fill mid" style="--pct:60%"></div></div><span class="bar-score">6/10</span></div>
+          <div class="bar-row"><span class="bar-label">Internal links and map fit</span><div class="bar-track"><div class="bar-fill low" style="--pct:40%"></div></div><span class="bar-score">2/5</span></div>
+          <div class="bar-row"><span class="bar-label">Brand alignment</span><div class="bar-track"><div class="bar-fill low" style="--pct:40%"></div></div><span class="bar-score">2/5</span></div>
+          <div class="bar-row"><span class="bar-label">Metadata and operations</span><div class="bar-track"><div class="bar-fill low" style="--pct:40%"></div></div><span class="bar-score">2/5</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="p1">
+      <div class="wrap">
+        <h2>P1 findings</h2>
+        <p class="section-lead">These issues affect trust, correctness, accessibility to search engines, or the safety of future automation. They should be resolved before new content is scaled.</p>
+        <div class="findings">
+          <article class="finding"><h3>No source layer for important claims</h3><span class="evidence">59 of 59 content URLs have zero external sources</span><p>Changing prop-firm rules, numeric benchmarks, research claims, and product capabilities appear without named, dated evidence.</p><div class="action"><strong>Action:</strong> create claim and source registers; remove unnecessary general ranges.</div></article>
+          <article class="finding"><h3>Duplicate H1 template</h3><span class="evidence">18 of 24 blog pages render two H1s</span><p>The newer template outputs the title in the hero and again in the Markdown body. This is a shared rendering defect.</p><div class="action"><strong>Action:</strong> keep the hero H1; begin body content at H2 or introductory text.</div></article>
+          <article class="finding"><h3>Glossary count and sitemap mismatch</h3><span class="evidence">36 cards resolve to 35 unique term URLs</span><p>“Daily Drawdown Limit” and “Maximum Daily Loss” point to the same URL, which is repeated in the glossary sitemap.</p><div class="action"><strong>Action:</strong> use one canonical page with an in-page synonym unless intent is genuinely distinct.</div></article>
+          <article class="finding"><h3>Inconsistent product naming</h3><span class="evidence">“PropLog AI” on 21 pages; “Propol AI” on 7</span><p>The approved brand is <strong>PropLogAI</strong>. The rendered library contains 48 split-name occurrences and 14 typo occurrences.</p><div class="action"><strong>Action:</strong> correct stored content and add a deterministic pre-publication brand lint.</div></article>
+          <article class="finding"><h3>No structured data or date signals</h3><span class="evidence">0 JSON-LD pages; 0 dated content pages</span><p>No content URL exposes a visible date, a machine-readable publication or modified date, or appropriate article/term schema.</p><div class="action"><strong>Action:</strong> add honest dates, BlogPosting/Article, DefinedTerm, and BreadcrumbList schema.</div></article>
+          <article class="finding"><h3>Blogs and glossary are disconnected</h3><span class="evidence">0 blog→glossary and 0 glossary→blog links</span><p>Same-type related links work, but readers cannot move from a definition to application or from a guide to a canonical term.</p><div class="action"><strong>Action:</strong> implement a curated definition-to-guide cross-link map.</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="claims">
+      <div class="wrap">
+        <h2>Source-sensitive claims requiring revision</h2>
+        <p class="section-lead">These examples are not automatically false. They are too broad, changing, or context-dependent to publish as universal facts without current named evidence and clear calculation assumptions.</p>
+        <div class="claim-grid">
+          <article class="claim"><code>daily-drawdown-limit</code><p>Uses a 4–5% “typical” baseline and instant-breach language, including unrealized losses, without naming a firm or drawdown method.</p></article>
+          <article class="claim"><code>risk-per-trade</code><p>Presents 0.5–2% as a typical prop-firm trader range without data or account-rule context.</p></article>
+          <article class="claim"><code>prop-firm-challenge</code><p>Generalizes 8–10% and 5% targets, a 30-day window, real-capital funding, and pass-rate language.</p></article>
+          <article class="claim"><code>funded-account</code><p>Assumes real capital, gives $25k–$400k account sizes, and 70–90% splits without separating simulated and live structures.</p></article>
+          <article class="claim"><code>consistency-rule</code><p>Calls 30–40% typical and advises readers not to worry if sizing is consistent, despite formula variation.</p></article>
+          <article class="claim"><code>profit-factor</code><p>Calls a value above 1.5 “strong” without sample size, strategy, market, or observation-window context.</p></article>
+          <article class="claim"><code>loss-aversion</code><p>Presents the “roughly twice” effect as a stable fact without a source or qualification.</p></article>
+          <article class="claim"><code>win-rate</code><p>Gives style-based ranges without sources, sample definitions, costs, or risk/reward context.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="p2">
+      <div class="wrap">
+        <h2>P2 findings</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Area</th><th>Evidence</th><th>Recommended action</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Metadata length</strong></td><td>22/24 blog titles exceed 60 characters. Five blog descriptions exceed 160 characters and three are under 120. Glossary descriptions have five additional outliers.</td><td>Lead with the search promise, remove repeated title branding where wasteful, and inspect real snippet rendering.</td></tr>
+              <tr><td><strong>Older article quality</strong></td><td><code>trading-journal-benefits</code>, <code>trading-emotions-account-killer</code>, and <code>prop-firm-expense-tracking-guide</code> are thinner and use more sensational or prescriptive wording.</td><td>Refresh or consolidate before promoting them as internal-link targets.</td></tr>
+              <tr><td><strong>Product feature support</strong></td><td>Articles describe automated calculations, cross-week lookup, drawdown tracking, challenge-readiness tracking, and AI pattern categories without linked product documentation.</td><td>Create an approved feature claim register with owner, source, checked date, and exact allowed wording.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="overlap">
+      <div class="wrap">
+        <h2>Intent and cannibalisation map</h2>
+        <p class="section-lead">No exact title or meta-description duplicates were found. The risks below are semantic. They remain editorial hypotheses until authorized Search Console data confirms query ownership and performance.</p>
+
+        <details class="cluster" open><summary>Trading journals</summary><div class="cluster-body"><ul><li><strong>Pillar:</strong> <code>prop-firm-trading-journal</code>.</li><li><strong>Keep as support:</strong> fields, funded-account workflow, weekly review, monthly review, and P&amp;L calendar pages.</li><li><strong>Consolidation candidate:</strong> <code>trading-journal-benefits</code>; compare GSC evidence before redirecting.</li></ul></div></details>
+        <details class="cluster" open><summary>Psychology and emotions</summary><div class="cluster-body"><ul><li><strong>Pillar:</strong> <code>trading-psychology-prop-firm</code>.</li><li><strong>Keep as support:</strong> emotion tracking, revenge trading, and overtrading pages.</li><li><strong>Refresh or consolidate:</strong> <code>trading-emotions-account-killer</code>; the fear-based framing should not remain canonical.</li></ul></div></details>
+        <details class="cluster"><summary>AI coaching</summary><div class="cluster-body"><ul><li><strong>Pillar:</strong> <code>ai-trading-coach-prop-firm</code> should own what a coach should and should not do.</li><li><strong>Mechanics:</strong> <code>ai-journal-pattern-detection</code>.</li><li><strong>Safe workflow:</strong> <code>ai-trading-discipline</code>.</li></ul></div></details>
+        <details class="cluster"><summary>Risk, drawdown, and rules</summary><div class="cluster-body"><ul><li><strong>Pillar:</strong> <code>prop-firm-risk-management</code>.</li><li><strong>Keep:</strong> daily drawdown calculator, consistency calculator, rulebook, and readiness pages.</li><li><strong>Glossary decision:</strong> treat “Maximum Daily Loss” as a synonym for “Daily Drawdown Limit” unless a verified distinct definition exists.</li></ul></div></details>
+        <details class="cluster"><summary>Expenses and ROI</summary><div class="cluster-body"><ul><li><strong>Canonical calculator guide:</strong> <code>prop-firm-roi-calculator</code>.</li><li><strong>Conditional support:</strong> keep <code>prop-firm-expense-tracking-guide</code> only if it owns the narrower record-keeping workflow; otherwise consolidate.</li></ul></div></details>
+
+        <div class="panel" style="margin-top:18px">
+          <h3>Cross-link priorities</h3>
+          <p>Risk guides → drawdown, daily drawdown, risk per trade, position sizing, stop loss, and risk/reward terms. Psychology guides → FOMO, revenge trading, tilt, confirmation bias, loss aversion, and overconfidence. Journal guides → trading journal, trade review, emotion tracking, pattern recognition, performance report, and AI coach. Each approved glossary page should link to one relevant deeper guide.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="strengths">
+      <div class="wrap">
+        <h2>Technical strengths to preserve</h2>
+        <div class="strengths">
+          <div class="strength"><b>100%</b>61 unique sitemap pages returned HTTP 200.</div>
+          <div class="strength"><b>100%</b>Canonicals match final URLs after trailing-slash normalization.</div>
+          <div class="strength"><b>0</b>No audited page is marked <code>noindex</code>.</div>
+          <div class="strength"><b>Unique</b>All audited titles and descriptions are distinct.</div>
+          <div class="strength"><b>64/64</b>Internal link destinations returned 200 without redirects.</div>
+          <div class="strength"><b>Healthy base</b>Every glossary detail page has one H1 and same-type related content creates incoming links.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="wrap">
+        <h2>Recommended execution order</h2>
+        <p class="section-lead">The sequence resolves shared defects first, then the highest-risk content, then information architecture and search presentation.</p>
+        <div class="roadmap">
+          <article class="road-step"><h3>Fix brand naming and H1 rendering</h3><p>Repair the shared system and add automated checks before touching individual copy at scale.</p></article>
+          <article class="road-step"><h3>Correct the duplicate glossary term</h3><p>Align labels, unique URLs, the sitemap, and the public glossary count.</p></article>
+          <article class="road-step"><h3>Create claim registers</h3><p>Define allowed product and prop-firm wording, named sources, owners, and review dates.</p></article>
+          <article class="road-step"><h3>Rewrite high-risk glossary pages</h3><p>Make rules variation-first, remove unsupported norms, and add dated first-party examples.</p></article>
+          <article class="road-step"><h3>Add dates and structured data</h3><p>Use honest publication/update dates and validate appropriate Article, DefinedTerm, and breadcrumb schema.</p></article>
+          <article class="road-step"><h3>Build cross-type internal links</h3><p>Connect definitions to approved guides and first-use technical mentions to canonical terms.</p></article>
+          <article class="road-step"><h3>Refresh legacy pages and metadata</h3><p>Resolve overlap with GSC evidence, improve tone, and rewrite snippet outliers around intent.</p></article>
+          <article class="road-step"><h3>Re-audit, then pilot automation</h3><p>Require a clean rerun before a small, human-approved blog and glossary production test.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="queue">
+      <div class="wrap">
+        <h2>Complete remediation queue</h2>
+        <p class="section-lead">Seventeen open actions were recorded: fifteen P1 items and two P2 items. Use the controls to focus the table on a priority.</p>
+        <div class="filters" aria-label="Filter remediation queue">
+          <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All 17</button>
+          <button class="filter-btn" type="button" data-filter="P1" aria-pressed="false">P1 · 15</button>
+          <button class="filter-btn" type="button" data-filter="P2" aria-pressed="false">P2 · 2</button>
+        </div>
+        <div class="table-wrap">
+          <table id="queue-table">
+            <thead><tr><th>Priority</th><th>Scope / URL</th><th>Issue and evidence</th><th>Required action</th><th>Owner</th></tr></thead>
+            <tbody>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide content</td><td><strong>No external sources.</strong> Zero external links across 59 content URLs.</td><td>Create dated source registers and verify sensitive claims.</td><td>Editorial + fact check</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide blogs</td><td><strong>Duplicate H1 template.</strong> 18/24 articles render hero and body H1s.</td><td>Keep one H1 and retest every article.</td><td>Web engineering</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/glossary/sitemap.xml">Glossary sitemap</a></td><td><strong>Duplicate canonical term URL.</strong> 36 cards resolve to 35 unique terms.</td><td>Choose one canonical label and emit one sitemap record.</td><td>SEO + web engineering</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide content</td><td><strong>Inconsistent brand.</strong> “PropLog AI” on 21 pages and “Propol AI” on 7.</td><td>Normalize to PropLogAI and add automated lint.</td><td>Editorial + engineering</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide content</td><td><strong>No structured data.</strong> No JSON-LD on 61 audited pages.</td><td>Add appropriate BlogPosting/Article, DefinedTerm, and BreadcrumbList schema.</td><td>Engineering + SEO</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide content</td><td><strong>No date signals.</strong> No visible or machine-readable dates on 59 content URLs.</td><td>Add honest published and updated dates without fabricating history.</td><td>Editorial + engineering</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">Sitewide content</td><td><strong>No cross-type links.</strong> 24 blogs have zero glossary links; 35 terms have zero blog links.</td><td>Implement a curated definition-to-guide map.</td><td>SEO editor</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/glossary/daily-drawdown-limit">Daily Drawdown Limit</a></td><td><strong>Universal firm-rule claims.</strong> Unsourced 4–5%, instant-breach, and unrealized-loss wording.</td><td>Rewrite around firm-specific methods with dated first-party examples.</td><td>Fact check + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/glossary/funded-account">Funded Account</a></td><td><strong>Overstates real-capital model.</strong> Unsourced account sizes and profit splits.</td><td>Distinguish simulated/live structures and remove universal ranges.</td><td>Fact check + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/glossary/prop-firm-challenge">Prop Firm Challenge</a></td><td><strong>Universal challenge structure.</strong> Unsourced targets, time limits, funding model, and pass-rate language.</td><td>Use a variation-first definition and named, dated examples.</td><td>Fact check + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/glossary/consistency-rule">Consistency Rule</a></td><td><strong>Prescriptive universal wording.</strong> Unsourced 30–40% range and reassurance.</td><td>Explain formula variants and require named firm sources.</td><td>Fact check + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url">High-risk glossary set</td><td><strong>Unsupported benchmarks.</strong> Risk, win rate, profit factor, loss aversion, target, and drawdown pages use unsourced norms.</td><td>Audit and rewrite the ten P1 glossary pages.</td><td>Fact check + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/blogs/trading-emotions-account-killer">Trading emotions legacy page</a></td><td><strong>Sensational and overlapping.</strong> “Account killer” framing overlaps newer psychology content.</td><td>Refresh or consolidate after Search Console review.</td><td>SEO editor + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/blogs/trading-journal-benefits">Trading journal legacy page</a></td><td><strong>Overlapping intent.</strong> “Single biggest edge” framing overlaps the journal pillar candidate.</td><td>Refresh or consolidate after Search Console review.</td><td>SEO editor + editorial</td></tr>
+              <tr class="queue-row" data-priority="P1"><td><span class="badge p1">P1</span></td><td class="url"><a href="https://proplogai.com/blogs/prop-firm-expense-tracking-guide">Expense tracking legacy page</a></td><td><strong>Prescriptive and thin.</strong> Uses typical costs, “math is obvious,” and “only number that matters.”</td><td>Separate the record-keeping workflow from ROI calculator intent and rewrite with evidence.</td><td>Editorial + fact check</td></tr>
+              <tr class="queue-row" data-priority="P2"><td><span class="badge p2">P2</span></td><td class="url">Sitewide metadata</td><td><strong>Length outliers.</strong> 22 long blog titles and 13 description outliers across both types.</td><td>Rewrite around intent and inspect rendered search snippets.</td><td>SEO editor</td></tr>
+              <tr class="queue-row" data-priority="P2"><td><span class="badge p2">P2</span></td><td class="url">Product claims</td><td><strong>No feature claim register.</strong> Automated calculations, tracking, and AI capabilities lack linked product evidence.</td><td>Create an approved register with owner, source, checked date, and allowed wording.</td><td>Product owner + editorial</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="method">
+      <div class="wrap">
+        <h2>Method, evidence, and limits</h2>
+        <div class="panel">
+          <p>The audit used the live <a href="https://proplogai.com/blogs">blog index</a>, <a href="https://proplogai.com/glossary">glossary index</a>, both XML sitemaps, rendered HTML, canonical and metadata extraction, heading checks, structured-data detection, date detection, internal/external link checks, brand-string checks, and manual page-text review. Sitemap discovery returned 62 records and 61 unique pages. Rendered-main word counts are approximate.</p>
+          <p><strong>Evidence files:</strong> <code>live-inventory.csv</code>, <code>live-technical-inventory-2026-09-19.csv</code>, <code>refresh-queue.csv</code>, <code>intent-overlap-map-2026-09-19.md</code>, and the repeatable collector in <code>scripts/collect-live-audit.mjs</code>.</p>
+        </div>
+        <div class="limits" style="margin-top:18px">
+          <h3>Material limitation</h3>
+          <ul>
+            <li>Search performance, clicks, impressions, CTR, backlinks, and query ownership were not available.</li>
+            <li>Consolidation and canonical-topic decisions remain editorial hypotheses until authorized Search Console evidence is reviewed.</li>
+            <li>This audit did not edit, publish, delete, redirect, or automate any PropLogAI production content.</li>
+            <li>Prop-firm rules and product feature claims should be rechecked against current first-party sources at remediation time.</li>
+          </ul>
+        </div>
+        <p class="print-note">This report is print-ready. Use the browser’s Print command to save a PDF copy.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>PropLogAI Content System · Phase 2 audit</strong></p>
+      <p style="color:#9fb0c2">Prepared from a live evidence snapshot dated 19 September 2026. Human review remains required before remediation or publication.</p>
+    </div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const rows = document.querySelectorAll('.queue-row');
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+        rows.forEach((row) => { row.hidden = filter !== 'all' && row.dataset.priority !== filter; });
+      });
+    });
+  </script>
+</body>
+</html>

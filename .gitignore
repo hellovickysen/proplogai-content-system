@@ -1,0 +1,6 @@
+.audit-cache/
+.firecrawl/
+.automation/runs/
+.env
+.env.*
+!.env.example

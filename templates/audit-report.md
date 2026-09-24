@@ -1,27 +1,35 @@
-# Executive Summary
+# Content Audit
 
-# Overall Score
+- URL:
+- Content type:
+- Checked date:
+- Intended reader:
+- Search intent:
+- Overall score:
+- Result: Pass / Fail
 
-# Category Scores
+## Priority findings
 
-# Major Problems
+For each finding record priority, evidence, impact, and recommended fix.
 
-# Major Strengths
+## Technical and metadata
 
-# Missing Sections
+HTTP result, canonical, title, description, H1, indexability, sitemap, schema, dates, and broken links.
 
-# Glossary Opportunities
+## Reader value
 
-# Internal Link Opportunities
+Direct answer, clarity, structure, examples, limitations, and practical usefulness.
 
-# Visual Opportunities
+## Accuracy and safety
 
-# Interactive Opportunities
+Product claims, firm rules, formulas, performance language, advice boundary, sources, and freshness.
 
-# SEO Issues
+## SEO and content map
 
-# Beginner Readability
+Intent ownership, overlap, pillar or cluster role, glossary relationship, and internal links.
 
-# Rewrite Priority
+## Strengths to preserve
 
-# Action Plan
+## Required actions
+
+## Re-review conditions
