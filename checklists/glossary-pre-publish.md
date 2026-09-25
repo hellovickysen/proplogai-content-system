@@ -2,8 +2,11 @@
 
 - [ ] The term and synonyms do not duplicate an existing canonical term.
 - [ ] The first sentence is a complete plain-English definition.
+- [ ] The page talks directly to one trader in very simple English while remaining definition-first.
 - [ ] The page explains why the term matters and gives a labelled example.
+- [ ] Any necessary trading jargon is explained in the sentence and related approved terms are linked naturally.
 - [ ] Common confusion and firm-specific variation are clear.
+- [ ] A visual or interaction appears only when it improves understanding; any detailed teaching image is mobile-readable and supports accessible zoom.
 - [ ] Every sensitive claim cites a source-register ID in the brief or review notes.
 - [ ] Product and research claims are `Approved`; named firm rules are `Verified`.
 - [ ] No cited row is past its `review_by` date.
@@ -12,4 +15,5 @@
 - [ ] Definition intent is distinct from related blog intent.
 - [ ] Sources, register IDs, checked dates, and limitations are recorded.
 - [ ] Overall QA is at least 90; accuracy and safety are at least 9/10.
+- [ ] QA used `checklists/glossary-quality-checklist.md` and the approved `/glossary/overtrading` benchmark.
 - [ ] A human approved the exact revision and hash.
