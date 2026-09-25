@@ -12,7 +12,8 @@ Transform an existing ProplogAI blog into the highest-quality beginner-friendly 
 
 - knowledge/00-system-rules.md
 - knowledge/01-brand.md
-- knowledge/02-beginner-first.md
+- knowledge/02-reader-first.md
+- knowledge/12-direct-trader-teaching.md
 - knowledge/09-quality-standard.md
 
 ---
@@ -50,11 +51,11 @@ Transform an existing ProplogAI blog into the highest-quality beginner-friendly 
 1. Read the audit report.
 2. Identify every improvement.
 3. Preserve the core message.
-4. Rewrite for beginners.
+4. Rewrite as a direct conversation with one trader, using very simple English and recognisable trading moments without shame or diagnosis.
 5. Improve formatting.
-6. Add glossary opportunities.
-7. Add visual opportunities.
-8. Add interactive opportunities.
+6. Explain necessary jargon and link its first useful mention to an approved glossary definition. Record missing glossary pages as gaps.
+7. Choose the simplest useful visual. Consider a progressive handwritten learning-note sequence with the complete view last.
+8. Add an interactive element only when interaction teaches more than a clear static explanation.
 9. Reconcile the draft with both SEO registers.
 10. Run fact check, the 100-point QA rubric, and both deterministic validators.
 11. Return the exact passing revision for human review.

@@ -28,15 +28,21 @@ brief_approved_at: null
 
 ## Primary question and article promise
 
+Write the promise as a direct answer to one trader, using simple English.
+
 ## Reader problem
 
 State how this serves the primary Indian audience and whether the query is universal or India-specific.
+
+Record the real moment the reader may recognise, what they may feel or notice, and what they should understand by the end. Do not diagnose or shame the reader.
 
 ## Canonical ownership
 
 Record whether this creates, updates, differentiates, consolidates, or defers a URL.
 
 ## Required sections
+
+Record any necessary trading jargon. For each term, name the plain-English explanation and approved glossary destination, or record a glossary gap.
 
 ## Firm/program variation and formula assumptions
 
@@ -54,6 +60,10 @@ Both are optional. Explain why either is necessary or intentionally omitted.
 
 ## Visual or interactive opportunity
 
-For blogs, specify the cover concept using `knowledge/06-visual-design.md`, the visual teaching purpose, any interactive inputs/outputs, the non-JavaScript fallback, and desktop/mobile review requirements.
+For blogs, specify the cover concept using `knowledge/06-visual-design.md` and the direct teaching standard in `knowledge/12-direct-trader-teaching.md`.
+
+Choose one visual decision: no visual needed, table/diagram, handwritten learning-note sequence, or interactive element. State why it makes the lesson easier. Interactive elements are optional.
+
+For a handwritten process or chart, plan the progressive panels: starting situation, one new mark or decision per step, and the complete annotated view last. Record alt-text direction plus desktop/mobile review requirements. For an interaction, record inputs, outputs, assumptions, limits, and the non-JavaScript fallback.
 
 ## Human brief approval

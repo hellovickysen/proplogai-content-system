@@ -11,6 +11,7 @@ $required = @(
     'knowledge/08-proplogai.md',
     'knowledge/10-automation-boundaries.md',
     'knowledge/11-source-expiry-rules.md',
+    'knowledge/12-direct-trader-teaching.md',
     'docs/content-schema.md',
     'docs/daily-content-workflow.md',
     'docs/seo-portfolio-contract.md',

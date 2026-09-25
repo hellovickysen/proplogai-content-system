@@ -34,10 +34,13 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 ## 3. Beginner Clarity — 10
 
 - [ ] The main question is answered near the beginning.
+- [ ] The article speaks directly to one trader using `you` and `your` naturally.
+- [ ] A recognisable feeling or decision moment is described calmly, without shame or diagnosis.
 - [ ] Technical terms are explained on first useful mention.
+- [ ] Necessary trading jargon links to its approved glossary meaning when available; missing definitions are recorded as gaps.
 - [ ] Sentences and paragraphs are easy to scan.
 - [ ] One main idea is explained at a time.
-- [ ] Language aims for Grade 6–8 readability without losing accuracy.
+- [ ] Very simple English and common words are used so a motivated non-trader can understand the main lesson.
 
 ## 4. Educational Value — 10
 
@@ -69,12 +72,15 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] The published cover uses WebP, loads from the final article path, and has been checked for dimensions, visual quality, and file size.
 - [ ] A visual, table, diagram, or comparison is used or recommended only when it improves understanding.
 - [ ] Every recommendation has a teaching purpose and accessible alt-text direction.
+- [ ] A handwritten chart or process is broken into progressive panels with one new point per panel and the complete view last.
+- [ ] Generated handwritten text, chart labels, prices, arrows, and session logic were checked for errors.
 - [ ] Visuals avoid unsupported performance or safety implications.
 - [ ] If no visual helps, the omission is documented and may still score 9–10.
 
 ## 8. Interactive Learning — 10
 
 - [ ] A calculator, checklist, walkthrough, or decision aid is used or recommended only when useful.
+- [ ] No interactive element was added merely to make the article look advanced.
 - [ ] Assumptions and limitations are visible.
 - [ ] The interaction does not provide a signal, forecast, or personalised instruction.
 - [ ] The article remains understandable without the interaction.
@@ -92,6 +98,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 ## 10. PropLogAI Alignment — 10
 
 - [ ] Tone is calm, practical, evidence-based, and non-promotional.
+- [ ] The public copy teaches the trader and does not read like SEO copy, a research paper, or a sales page.
 - [ ] PropLogAI is described as a journaling and discipline-review system.
 - [ ] Product claims match the current approved claim register.
 - [ ] The content remains useful without a product mention or CTA.

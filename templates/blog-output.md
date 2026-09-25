@@ -24,6 +24,10 @@ Machine-readable production drafts use `templates/article-output.md` with `conte
 
 ## Article
 
+### Talk to the trader
+
+Open with a moment the reader may recognise and answer the main question in simple English.
+
 ### Quick answer
 
 ### Why this matters
@@ -32,9 +36,17 @@ Machine-readable production drafts use `templates/article-output.md` with `conte
 
 ### Example
 
+Use a clear instrument, session, setup, and journal note when relevant. Explain necessary trading terms and link their first useful mention to the glossary.
+
 ### Limits and firm-specific variation
 
 ### Practical next step
+
+Give the reader one calm step for checking, recording, or reviewing their own process.
+
+### Visual teaching sequence
+
+Record `not needed`, `static`, `handwritten sequence`, or `interactive`. When using a handwritten sequence, show one new point per panel and the full annotated view last.
 
 ### Frequently asked questions
 

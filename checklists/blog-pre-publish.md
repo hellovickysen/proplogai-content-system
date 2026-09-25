@@ -4,6 +4,8 @@
 
 - [ ] The main question is answered near the top.
 - [ ] The article is understandable to a Grade 6-8 reader.
+- [ ] The article talks directly to one trader in very simple English.
+- [ ] Necessary jargon is explained and linked to an approved glossary definition when available.
 - [ ] The example states its assumptions.
 - [ ] Process quality is separate from trade outcome.
 - [ ] Limitations and a practical next step are visible.
@@ -17,6 +19,13 @@
 - [ ] No signal, forecast, personalised risk instruction, or profit promise appears.
 - [ ] No rule is presented as universal when firms differ.
 - [ ] Formulas and calculations were checked deterministically.
+
+## Visual teaching
+
+- [ ] Every visual teaches a specific point; an omitted visual is acceptable when it would not help.
+- [ ] Interactive content is included only when interaction improves understanding.
+- [ ] Handwritten chart or process visuals reveal one new point per panel and show the full annotated view last.
+- [ ] Cover and in-article image text, prices, chart logic, and arrows were checked manually.
 
 ## SEO and operations
 

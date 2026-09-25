@@ -16,7 +16,7 @@ This is a standalone system for a distinct product, audience, subject area, sour
 
 ## Required workflow
 
-Read the relevant knowledge files, inspect the live inventory, define one reader and intent, create a brief, use the matching skill and playbook, follow the output template, record sources, run QA, and stop at human review.
+Read the relevant knowledge files, including `knowledge/12-direct-trader-teaching.md` for public copy. Inspect the live inventory, define one reader and intent, create a brief, use the matching skill and playbook, follow the output template, record sources, run QA, and stop at human review.
 
 ## Hard rules
 
