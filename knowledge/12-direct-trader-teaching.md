@@ -79,6 +79,8 @@ The same handwritten direction may be used for a cover when it remains clear at 
 
 Use 16:9 for the blog cover. Prefer a square 1:1 layout for text-heavy handwritten teaching panels so labels remain readable on mobile. Make detailed panels clickable or tappable to open a larger accessible view.
 
+When a comparison needs a table, keep each column wide enough to read naturally. On mobile, the table should scroll horizontally inside its own area. Never squeeze several text columns into the screen until sentences become vertical stacks of words. Use compact cards when they explain the same information more clearly.
+
 ## Final reader test
 
 Before human review, ask:

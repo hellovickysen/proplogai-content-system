@@ -28,6 +28,17 @@ When teaching a chart, setup, or review process with images, reveal it in steps.
 
 Detailed teaching images should open into a larger view when clicked or tapped. The zoom view must support keyboard focus, Escape-to-close through the native dialog, a visible Close control, backdrop click, accurate alt text, and a mobile viewport without horizontal overflow.
 
+## Tables on mobile
+
+Use a table only when rows and columns make a real comparison easier. Keep useful column widths so sentences remain readable. On a narrow screen, preserve the table's horizontal layout inside a clearly styled horizontal scroll area. Do not squeeze every column into the phone width or allow sentences to collapse into tall stacks of one or two words.
+
+- Give text columns a practical minimum width and align cell content to the top.
+- Allow normal sentence wrapping inside each readable column.
+- Keep headings visually distinct from body cells and retain row separators.
+- Make the table itself horizontally scrollable without causing the whole page to overflow.
+- Verify touch scrolling at a 390 px mobile viewport and confirm the content before and after the table stays within the page.
+- If the comparison is easier as short cards on mobile, use cards instead of forcing a large table.
+
 ## Accessibility and safety
 
 - Provide accurate alt text through the article title or a more specific description when needed.

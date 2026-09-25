@@ -54,6 +54,7 @@ Use `/glossary/overtrading` and `knowledge/13-glossary-teaching-standard.md` as 
 - [ ] A visual is included only when it makes the definition easier to understand; a useful omission can score fully.
 - [ ] Progressive handwritten visuals reveal one new point per panel and show the complete view last.
 - [ ] Text-heavy panels are mobile-readable, normally 1:1, and detailed images support accessible zoom.
+- [ ] Any comparison table keeps readable columns and scrolls horizontally inside its own area on mobile without creating page-level overflow.
 - [ ] Generated text, prices, sessions, arrows, rules, and chart logic were checked.
 
 ## 8. Interactive Learning — 10

@@ -68,4 +68,6 @@ For a handwritten process or chart, plan the progressive panels: starting situat
 
 Default to a 16:9 cover and 1:1 text-heavy in-article handwritten panels. Record whether each detailed image needs click/tap zoom and how the enlarged view will be checked with keyboard, touch, and mobile layout.
 
+For any planned table, define the comparison it owns and the minimum readable column widths. Require horizontal scrolling inside the table on narrow screens, no page-level overflow, and a 390 px mobile check. Use cards when they are clearer than a wide table.
+
 ## Human brief approval

@@ -26,6 +26,7 @@
 - [ ] Interactive content is included only when interaction improves understanding.
 - [ ] Handwritten chart or process visuals reveal one new point per panel and show the full annotated view last.
 - [ ] Cover and in-article image text, prices, chart logic, and arrows were checked manually.
+- [ ] Every table keeps readable column widths, scrolls horizontally inside the table on mobile, and does not create page-level overflow.
 
 ## SEO and operations
 

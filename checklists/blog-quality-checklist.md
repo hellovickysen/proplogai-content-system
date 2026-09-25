@@ -75,6 +75,8 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] A handwritten chart or process is broken into progressive panels with one new point per panel and the complete view last.
 - [ ] Text-heavy handwritten teaching panels use a mobile-readable ratio, normally 1:1, while the cover remains 16:9.
 - [ ] Detailed teaching images support accessible click/tap zoom with a visible close control and mobile-safe enlarged view.
+- [ ] Tables retain readable column widths and scroll horizontally inside their own area on mobile; text is not squeezed into vertical word stacks.
+- [ ] Table QA at 390 px confirms touch scrolling and no page-level horizontal overflow.
 - [ ] Generated handwritten text, chart labels, prices, arrows, and session logic were checked for errors.
 - [ ] Visuals avoid unsupported performance or safety implications.
 - [ ] If no visual helps, the omission is documented and may still score 9–10.

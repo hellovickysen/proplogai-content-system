@@ -7,6 +7,7 @@
 - [ ] Any necessary trading jargon is explained in the sentence and related approved terms are linked naturally.
 - [ ] Common confusion and firm-specific variation are clear.
 - [ ] A visual or interaction appears only when it improves understanding; any detailed teaching image is mobile-readable and supports accessible zoom.
+- [ ] Any table keeps readable column widths and uses table-level horizontal scrolling on mobile instead of squeezed columns.
 - [ ] Every sensitive claim cites a source-register ID in the brief or review notes.
 - [ ] Product and research claims are `Approved`; named firm rules are `Verified`.
 - [ ] No cited row is past its `review_by` date.
