@@ -99,6 +99,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 
 ## 10. PropLogAI Alignment — 10
 
+- [ ] The complete reading experience meets the usefulness, clarity, practical teaching, glossary integration, accuracy, and safety level of the approved `/blogs/overtrading-prop-firm-challenges` benchmark without copying its structure unnecessarily.
 - [ ] Tone is calm, practical, evidence-based, and non-promotional.
 - [ ] The public copy teaches the trader and does not read like SEO copy, a research paper, or a sales page.
 - [ ] PropLogAI is described as a journaling and discipline-review system.

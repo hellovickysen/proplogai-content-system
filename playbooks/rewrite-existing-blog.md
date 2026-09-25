@@ -51,7 +51,7 @@ Transform an existing ProplogAI blog into the highest-quality beginner-friendly 
 1. Read the audit report.
 2. Identify every improvement.
 3. Preserve the core message.
-4. Rewrite as a direct conversation with one trader, using very simple English and recognisable trading moments without shame or diagnosis.
+4. Use `/blogs/overtrading-prop-firm-challenges` as the approved quality benchmark, then rewrite as a direct conversation with one trader, using very simple English and recognisable trading moments without shame or diagnosis. Match its teaching quality without copying its structure mechanically.
 5. Improve formatting.
 6. Explain necessary jargon and link its first useful mention to an approved glossary definition. Record missing glossary pages as gaps.
 7. Choose the simplest useful visual. Consider a progressive handwritten learning-note sequence with the complete view last.

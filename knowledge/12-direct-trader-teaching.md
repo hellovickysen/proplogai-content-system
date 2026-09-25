@@ -1,5 +1,23 @@
 # Direct Trader Teaching Standard
 
+## Approved reference article
+
+`/blogs/overtrading-prop-firm-challenges` is the approved PropLogAI editorial benchmark.
+
+Use it as the quality reference for future blog creation and rewrites. Match its reader-first qualities:
+
+- begin with a real moment or feeling a trader may recognise;
+- speak calmly and directly to one trader;
+- answer in very simple English before adding detail;
+- use a concrete instrument, session, setup, journal note, and USD result when they make the lesson clearer;
+- explain necessary trading language in the sentence and link its first useful mention to the approved glossary page;
+- separate decision quality from profit or loss;
+- teach the decision in small steps and leave the reader with something safe to check, record, or review;
+- use visuals only when they reduce reading effort, with progressive handwritten notes preferred when they suit the lesson; and
+- keep PropLogAI support factual, useful, and secondary to the education.
+
+The benchmark is a quality reference, not a fixed article template. Do not copy its XAUUSD example, headings, number of visuals, or interactive review into every article. Choose the clearest example and teaching format for the topic while meeting the same standard of usefulness, clarity, accuracy, and safety.
+
 ## Write to one trader
 
 Write as if you are sitting beside one trader and helping them understand what happened.
