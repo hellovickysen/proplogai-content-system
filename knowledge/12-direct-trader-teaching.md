@@ -59,6 +59,8 @@ Each panel should teach one new point. Do not begin with one crowded image that 
 
 The same handwritten direction may be used for a cover when it remains clear at thumbnail size. Covers and in-article images must still be delivered as WebP, checked on desktop and mobile, and free from generated text errors, false chart logic, signals, forecasts, or profit promises.
 
+Use 16:9 for the blog cover. Prefer a square 1:1 layout for text-heavy handwritten teaching panels so labels remain readable on mobile. Make detailed panels clickable or tappable to open a larger accessible view.
+
 ## Final reader test
 
 Before human review, ask:

@@ -66,4 +66,6 @@ Choose one visual decision: no visual needed, table/diagram, handwritten learnin
 
 For a handwritten process or chart, plan the progressive panels: starting situation, one new mark or decision per step, and the complete annotated view last. Record alt-text direction plus desktop/mobile review requirements. For an interaction, record inputs, outputs, assumptions, limits, and the non-JavaScript fallback.
 
+Default to a 16:9 cover and 1:1 text-heavy in-article handwritten panels. Record whether each detailed image needs click/tap zoom and how the enlarged view will be checked with keyboard, touch, and mobile layout.
+
 ## Human brief approval

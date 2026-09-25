@@ -73,6 +73,8 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] A visual, table, diagram, or comparison is used or recommended only when it improves understanding.
 - [ ] Every recommendation has a teaching purpose and accessible alt-text direction.
 - [ ] A handwritten chart or process is broken into progressive panels with one new point per panel and the complete view last.
+- [ ] Text-heavy handwritten teaching panels use a mobile-readable ratio, normally 1:1, while the cover remains 16:9.
+- [ ] Detailed teaching images support accessible click/tap zoom with a visible close control and mobile-safe enlarged view.
 - [ ] Generated handwritten text, chart labels, prices, arrows, and session logic were checked for errors.
 - [ ] Visuals avoid unsupported performance or safety implications.
 - [ ] If no visual helps, the omission is documented and may still score 9–10.
