@@ -3,7 +3,7 @@ item_id: "proplogai-2026-09-25-daily-drawdown-calculator"
 revision: 1
 revision_hash: "ce9ca77f4a2afd8db0a04156b97b18c96636c2afa7861896930e9acd43d5ed72"
 title: "Daily Drawdown Calculator: Check Your Prop Firm Buffer"
-status: "Human Review"
+status: "Approved to Publish"
 content_type: "Blog"
 category: "Risk Management"
 content_role: "Utility guide"
@@ -45,11 +45,11 @@ qa_internal_linking: 10
 qa_proplogai_alignment: 9
 qa_total: 98
 qa_decision: "PASS"
-human_review_status: "Pending"
-approved_revision: null
-approved_revision_hash: null
-approved_by: null
-approved_at: null
+human_review_status: "Approved"
+approved_revision: 1
+approved_revision_hash: "ce9ca77f4a2afd8db0a04156b97b18c96636c2afa7861896930e9acd43d5ed72"
+approved_by: "Vicky"
+approved_at: "2026-09-28T23:52:15+05:30"
 ---
 
 # Daily Drawdown Calculator: Check Your Prop Firm Buffer
