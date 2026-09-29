@@ -19,7 +19,7 @@ cannibalisation_status: "Reviewed — the blog owns the worked explanation, the 
 canonical_url: "https://proplogai.com/blogs/prop-firm-consistency-calculator"
 pillar_url: "https://proplogai.com/blogs/prop-firm-challenge-readiness"
 product_mention_required: true
-source_ids: [PFR-010, PFR-011, PLAI-002, PLAI-004]
+source_ids: [PFR-010, PFR-011, PFR-016, PFR-017, PFR-018, PFR-019, PLAI-002, PLAI-004]
 updated_at: "2026-09-29"
 brief_approved_by: "Vicky"
 brief_approved_at: "2026-09-29"
@@ -60,12 +60,14 @@ Use a fictional five-day XAUUSD record with named London and New York setups. Sp
 1. Open with a five-day XAUUSD record and a 50% result.
 2. Link the live calculator early.
 3. State the exact best-day formula and when it is not applicable.
-4. Show daily net results in a horizontally scrollable table.
-5. Explain why a −$150 day changes $400 ÷ $950 from 42.1% to $400 ÷ $800 = 50%.
-6. State that a denominator gap is not a profit target or instruction to trade.
-7. Compare current named Topstep programs without generalising them.
-8. Separate consistency, profit target, daily drawdown, and overall drawdown.
-9. Give a copyable journal record and beginner FAQs.
+4. Explain best-day versus best-trade rules before using any threshold.
+5. Show daily net results in a horizontally scrollable table.
+6. Explain why a −$150 day changes $400 ÷ $950 from 42.1% to $400 ÷ $800 = 50%.
+7. Explain that being over a consistency condition is not automatically a breach; the exact program consequence decides.
+8. Show how $400 ÷ $800 can move from 50% to $400 ÷ $1,000 = 40% when the named firm allows continued trading, without presenting $200 as a target.
+9. Compare current named 15%, 20%, 30%, 40%, 50%, and 55% examples without generalising them.
+10. Separate consistency, profit target, daily drawdown, and overall drawdown.
+11. Give a copyable journal record and beginner FAQs.
 
 ## Firm/program variation and formula assumptions
 
@@ -79,7 +81,11 @@ Use a fictional five-day XAUUSD record with named London and New York setups. Sp
 
 - `PFR-010`: current Topstep Trading Combine 55% Consistency Target.
 - `PFR-011`: current Topstep Express Funded Account Consistency path 40% objective.
-- `PFR-012`: block universal or typical ranges.
+- `PFR-012`: editorial guard blocking universal or typical ranges; this remains a guard and is not used as a verified factual source.
+- `PFR-016`: current Tradeify best-day percentages and its payout-eligibility consequence.
+- `PFR-017`: current Instant Funding IF1 15% best-trade rule.
+- `PFR-018`: current Apex 50% best-day payout condition and non-breach wording.
+- `PFR-019`: current My Funded Futures 30% and 50% evaluation conditions and non-breach wording.
 - `PLAI-002`, `PLAI-004`: approved manual journal and P&L-calendar wording.
 
 ## Internal-link plan
@@ -95,6 +101,7 @@ Use one factual mention: PropLogAI can store manually logged results, emotions, 
 - Replace the cover with a 1200×630 handwritten WebP showing five daily results and `$400 ÷ $800 = 50%`.
 - Add one 1:1 handwritten WebP explaining why a −$150 day raises the ratio from 42.1% to 50% while the best day stays at $400.
 - Reuse the square visual in the glossary with click/tap zoom.
+- Add three 1:1 handwritten WebP notes: best day versus best trade, a 50%-to-40% worked change, and an over-limit consequence decision.
 - The existing main-site calculator is the interactive element; do not duplicate it inside the article.
 - Remove preset thresholds, best-trade mode, payout-ready labels, what-if trading prompts, and universal FAQ ranges from the live tool.
 - Verify the article table scrolls inside its container at 390 px with no page-level overflow.

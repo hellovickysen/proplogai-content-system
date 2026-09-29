@@ -1,7 +1,7 @@
 ---
 item_id: "proplogai-2026-09-29-prop-firm-consistency-calculator"
 revision: 1
-revision_hash: "0060897088e1bc9e901810edec4af0fd7f77c66a03fdc2e680388e78922d26a4"
+revision_hash: "64e31b0299db4cadfe2d53a2a42270b144ee420b3cb980df380995e70c90ae6d"
 title: "Consistency Rule Calculator for Prop Firm Traders"
 status: "Human Review"
 content_type: "Blog"
@@ -25,8 +25,8 @@ slug: "prop-firm-consistency-calculator"
 author: "PropLogAI Editorial Team"
 last_updated: "2026-09-29"
 source_checked: "2026-09-29"
-source_ids: [PFR-010, PFR-011, PLAI-002, PLAI-004]
-sources: [https://help.topstep.com/en/articles/8284208-consistency-at-topstep, https://proplogai.com/]
+source_ids: [PFR-010, PFR-011, PFR-016, PFR-017, PFR-018, PFR-019, PLAI-002, PLAI-004]
+sources: [https://help.topstep.com/en/articles/8284208-consistency-at-topstep, https://help.tradeify.co/en/articles/10468320-rules-consistency-rule, https://instantfunding.com/help/if1/, https://apextraderfunding.com/help-center/additional-helpful-items/50-consistency-requirement/, https://help.myfundedfutures.com/en/articles/11994562-consistency-rule-at-my-fundedfutures, https://proplogai.com/]
 internal_link_status: "Verified in draft"
 internal_links: [https://proplogai.com/tools/consistency-calculator, https://proplogai.com/glossary/consistency-rule, https://proplogai.com/glossary/profit-target, https://proplogai.com/glossary/daily-drawdown-limit, https://proplogai.com/glossary/overall-drawdown-limit, https://proplogai.com/blogs/prop-firm-challenge-readiness, https://proplogai.com/glossary/trading-journal]
 seo_register_status: "Matched"
@@ -82,6 +82,19 @@ Use it only when your program uses this formula:
 
 If your firm uses a different numerator, denominator, time window, or calculation method, this calculator is not the correct tool for that rule.
 
+## Best day and best trade are different rules
+
+Before entering a number, read the exact wording used by your program:
+
+- **Best-day rule:** groups all results inside the firm's defined trading day and checks the largest profitable day.
+- **Best-trade rule:** checks one winning trade or trade idea instead of the whole day.
+
+For example, Instant Funding's current IF1 page describes a **15% best-trade rule**. Tradeify's current Lightning Funded first-payout rule uses the **biggest day** and a 20% limit. Putting a best trade into a best-day calculator would answer the wrong question.
+
+![Handwritten note comparing a 20 percent best-day rule with a 15 percent best-trade rule](/blogs/images/consistency-day-vs-trade-note.webp)
+
+*First identify whether the firm checks one day or one trade. Click or tap to enlarge.*
+
 ## A five-day XAUUSD example
 
 Imagine these are your fictional daily net results. The setup names help you identify the day in your journal; they do not change the arithmetic.
@@ -110,13 +123,30 @@ Before Thursday's **−$150** result, total profit was $950. The same $400 best 
 
 After the loss, total profit fell to $800 while the best day stayed at $400. The ratio increased to 50%.
 
-![Handwritten note showing how a losing day changes the consistency percentage](/blogs/images/consistency-ratio-loss-note.webp)
+![Handwritten note showing a $400 best day divided by $950 total profit equals 42.1 percent, then the same best day divided by $800 after a minus $150 day equals 50 percent](/blogs/images/consistency-ratio-loss-note.webp)
 
-*The best day did not change. The denominator became smaller. Click or tap to enlarge on the published page.*
+*The best day did not change. The denominator became smaller. Click or tap to enlarge.*
 
 This is why you should include losing days when the official formula uses **total net profit**. Removing them would create a different number.
 
-## The calculator result is not a trade target
+## What happens if you are over the consistency limit?
+
+Being over the percentage is **not automatically an account breach**. Read the consequence for your exact firm, program, stage, and payout window.
+
+Current named examples show different outcomes:
+
+- **Tradeify:** its checked page says an account over the applicable limit does not meet the payout condition yet. It says the trader may continue and that high consistency does not fail or penalise the account.
+- **Apex 50% requirement:** its checked page says the payout option remains unavailable, but the account stays active and trading may continue until the figure is below 50%.
+- **My Funded Futures:** its checked page says exceeding the 30% or 50% evaluation target does not breach the account. The trader needs additional trading days until the condition is met.
+- **Topstep Trading Combine:** its checked page uses a different consequence: the required profit target can increase when the 55% target is exceeded.
+
+These examples do not prove that every firm lets you continue. If your own rule calls the event a hard breach, stop and follow that rule.
+
+![Handwritten decision note explaining that the individual program decides whether exceeding a consistency limit is a breach](/blogs/images/consistency-breach-decision-note.webp)
+
+*The percentage alone does not decide the account outcome. Click or tap to enlarge.*
+
+## A clear example when the firm allows continued trading
 
 Suppose your best day is $400 and the limit you copied is 40%. The arithmetic says the denominator would need to be at least $1,000 for $400 to represent 40%:
 
@@ -127,16 +157,30 @@ Minimum denominator for the entered ratio = $400 ÷ 0.40
 
 If your current total is $800, the mathematical gap is $200. That is **not** an instruction to make another $200, increase size, stay in the market, or force an extra trading day.
 
-You may feel urged to “fix” the number quickly. Pause there. A calculator cannot see your setup quality, your [daily drawdown limit](/glossary/daily-drawdown-limit), the market conditions, or the rest of your agreement. Follow the trading plan you already wrote and use the firm's official status as the final check.
+If the firm says the account remains active, imagine that two later **planned** setups each finish at +$100. Total net profit becomes $1,000 while the best day remains $400:
+
+```text
+$400 ÷ $1,000 × 100 = 40%
+```
+
+The example now meets a 40% limit. It does not mean you should chase $200. You may feel urged to “fix” the number quickly, but a calculator cannot see your setup quality, your [daily drawdown limit](/glossary/daily-drawdown-limit), or the market conditions. Continue only when the firm allows it and a setup already included in your written plan appears.
+
+![Handwritten example showing a $400 best day moving from 50 percent to 40 percent after total net profit becomes $1,000](/blogs/images/consistency-ratio-change-example.webp)
+
+*This shows how the arithmetic changes. It is not a target or instruction to force trades. Click or tap to enlarge.*
 
 ## Why the program name matters
 
 A [consistency rule](/glossary/consistency-rule) does not have one universal percentage or consequence.
 
-Topstep's official consistency page was rechecked on 29 September 2026. It shows two different examples inside one firm:
+Current official pages rechecked on 29 September 2026 show why the exact program matters:
 
 - **Trading Combine:** a 55% Consistency Target using best-day profit against total profit. When the target is exceeded, the required profit target can increase.
 - **Express Funded Account Consistency path:** a 40% objective using largest single-day net profit against total net profit. A result above the limit does not satisfy that payout-path requirement, and the calculation resets after a payout request under the published conditions.
+- **Instant Funding IF1:** a 15% best-trade rule. The numerator is one trade, so the best-day calculator on this page is not the correct tool for it.
+- **Tradeify Lightning Funded:** 20% for the first payout, 25% for the second, and 30% from the third payout under the current dated program conditions.
+- **My Funded Futures evaluation:** 30% on Rapid EOD and 50% on Rapid Intraday and Pro on the checked page.
+- **Apex cited payout requirement:** the largest profitable day must be below 50% of accumulated net profit for the stated payout condition.
 
 These are named examples, not default settings for every prop firm. They also show why a calculator should not label an account “payout ready” from three inputs.
 
@@ -217,7 +261,11 @@ No. It means the entered numbers produced a ratio at or below the limit you ente
 
 ### Should I keep trading to reduce the percentage?
 
-The calculator cannot answer that. Do not use the displayed gap as a reason to force a trade. Check the official rule and follow your existing trading plan.
+Only if the current rules say the account remains active and continued trading is allowed. Even then, do not use the displayed gap as a reason to force a trade, increase size, or accept a weak setup. Follow your existing trading plan.
+
+### Is going over the consistency percentage a breach?
+
+Not automatically. Tradeify, Apex, and My Funded Futures currently describe named conditions where the account remains active or the trader may continue until the condition is met. Another program may use a different consequence. Read the exact rule for your firm, program, and stage.
 
 ### Is the best day the same as the best trade?
 
@@ -226,6 +274,10 @@ No. A best day is the net result of the firm's defined trading day. A best trade
 ## Sources checked
 
 - [Topstep: Consistency at Topstep](https://help.topstep.com/en/articles/8284208-consistency-at-topstep), rechecked 29 September 2026.
+- [Tradeify: Consistency Rule](https://help.tradeify.co/en/articles/10468320-rules-consistency-rule), rechecked 29 September 2026.
+- [Instant Funding: IF1](https://instantfunding.com/help/if1/), rechecked 29 September 2026.
+- [Apex Trader Funding: 50% Consistency Requirement](https://apextraderfunding.com/help-center/additional-helpful-items/50-consistency-requirement/), rechecked 29 September 2026.
+- [My Funded Futures: Consistency Rule](https://help.myfundedfutures.com/en/articles/11994562-consistency-rule-at-my-fundedfutures), rechecked 29 September 2026.
 - [PropLogAI consistency calculator](https://proplogai.com/tools/consistency-calculator), reviewed locally for the calculation and wording used in this guide.
 
 Rules can change. Recheck the official source for your exact account before relying on any threshold, formula, reset, or consequence.
