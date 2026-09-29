@@ -1,7 +1,7 @@
 ---
 item_id: "proplogai-2026-09-29-prop-firm-consistency-calculator"
 revision: 1
-revision_hash: "3951fcb15c6764cad84ac381270c1108031462bc44ef86ecd2bb8034de38515e"
+revision_hash: "0060897088e1bc9e901810edec4af0fd7f77c66a03fdc2e680388e78922d26a4"
 title: "Consistency Rule Calculator for Prop Firm Traders"
 status: "Human Review"
 content_type: "Blog"
@@ -68,7 +68,7 @@ That number is only useful when you compare it with the exact rule for your prog
 
 ## Use the consistency rule calculator
 
-Open the [free consistency rule calculator](/tools/consistency-calculator) and enter:
+Open the [existing PropLogAI consistency rule calculator](https://proplogai.com/tools/consistency-calculator) and enter:
 
 1. your total net profit for the firm's defined period;
 2. your single best profit day in that same period; and
@@ -226,6 +226,6 @@ No. A best day is the net result of the firm's defined trading day. A best trade
 ## Sources checked
 
 - [Topstep: Consistency at Topstep](https://help.topstep.com/en/articles/8284208-consistency-at-topstep), rechecked 29 September 2026.
-- [PropLogAI consistency calculator](/tools/consistency-calculator), reviewed locally for the calculation and wording used in this guide.
+- [PropLogAI consistency calculator](https://proplogai.com/tools/consistency-calculator), reviewed locally for the calculation and wording used in this guide.
 
 Rules can change. Recheck the official source for your exact account before relying on any threshold, formula, reset, or consequence.
