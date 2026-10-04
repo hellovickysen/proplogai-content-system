@@ -18,6 +18,10 @@ This is a standalone system for a distinct product, audience, subject area, sour
 
 Read the relevant knowledge files, including `knowledge/12-direct-trader-teaching.md` for public copy. Inspect the live inventory, define one reader and intent, create a brief, use the matching skill and playbook, follow the output template, record sources, run QA, and stop at human review.
 
+## Review handoff
+
+Every implemented blog or glossary review handoff must include a verified local browser URL. Start or confirm the matching local server, open the exact route successfully, and then give the reviewer the clickable URL. Do not present an offline or assumed localhost link. For brief-only work with no rendered page yet, provide the clickable source-file link and clearly state that the browser review link will follow with implementation.
+
 ## Hard rules
 
 - Never give entry, exit, direction, instrument, price-target, or timing signals.

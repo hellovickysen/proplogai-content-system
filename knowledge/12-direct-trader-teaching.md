@@ -30,6 +30,24 @@ Write as if you are sitting beside one trader and helping them understand what h
 
 The article should sound like a useful conversation with a trader. It should not sound like a research paper, a sales page, or text written to impress a search engine.
 
+## Preserve the trader's natural explanation
+
+When a human editor rewrites a passage, treat the intended meaning and speaking style as the starting point.
+
+- Fix grammar, punctuation, repetition, and unclear transitions without turning the passage back into formal copy.
+- Keep a useful direct phrase when a trader would understand it faster than a technically polished phrase.
+- Replace abstract terms such as `numerator`, `denominator`, `eligibility outcome`, or `applicable condition` with the actual thing being discussed whenever possible.
+- Use the technical term only when the reader needs it, and explain it immediately in plain English.
+- Do not add words merely to sound authoritative. Accuracy should come from the facts and sources, not from complicated language.
+
+For a confusing prop-firm rule, follow the trader's likely questions:
+
+1. What does the firm check?
+2. How is the number calculated?
+3. What happens when the number is over the limit?
+4. Is that a breach, a delayed payout, or an unmet condition?
+5. What exact firm, program, stage, and period must the trader verify?
+
 ## Use very simple English
 
 - Prefer common words: `change` instead of `deviation`, `check` instead of `evaluate`, and `reason` instead of `rationale` when the meaning remains accurate.
@@ -90,4 +108,6 @@ Before human review, ask:
 - Is every necessary trading term explained or linked?
 - Does each visual make the lesson easier?
 - Could any sentence be simpler without losing accuracy?
+- Does the explanation answer what happens next, rather than stopping at a formula or definition?
+- Did the grammar pass preserve the human editor's meaning and voice?
 - Is the practical next step about checking and recording the reader's own process rather than following our trade instruction?

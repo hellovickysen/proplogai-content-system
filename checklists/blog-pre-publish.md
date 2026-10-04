@@ -15,6 +15,8 @@
 - [ ] Every sensitive claim cites a source-register ID in the brief or review notes.
 - [ ] Product and research claims are `Approved`; named firm rules are `Verified`.
 - [ ] No cited row is past its `review_by` date.
+- [ ] Any visible `checked`, `rechecked`, `current as of`, or `last verified` date matches the actual source-check date and source register.
+- [ ] A visible freshness date was advanced only after the cited sources were opened and rechecked.
 - [ ] No `Needs Fact Check` or `Prohibited` wording remains in the draft.
 - [ ] No signal, forecast, personalised risk instruction, or profit promise appears.
 - [ ] No rule is presented as universal when firms differ.

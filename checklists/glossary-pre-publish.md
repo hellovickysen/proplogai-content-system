@@ -11,6 +11,8 @@
 - [ ] Every sensitive claim cites a source-register ID in the brief or review notes.
 - [ ] Product and research claims are `Approved`; named firm rules are `Verified`.
 - [ ] No cited row is past its `review_by` date.
+- [ ] Any visible `checked`, `rechecked`, `current as of`, or `last verified` date matches the actual source-check date and source register.
+- [ ] A visible freshness date was advanced only after the cited sources were opened and rechecked.
 - [ ] No `Needs Fact Check`, `Prohibited`, unsupported percentage, threshold, performance, or product claim appears.
 - [ ] Related terms and deeper guides are relevant and verified.
 - [ ] Definition intent is distinct from related blog intent.

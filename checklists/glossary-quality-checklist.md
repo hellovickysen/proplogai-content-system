@@ -16,6 +16,7 @@ Use `/glossary/overtrading` and `knowledge/13-glossary-teaching-standard.md` as 
 ## 1. Accuracy — 10
 
 - [ ] The definition and material claims match current reviewed sources.
+- [ ] Any source-check date shown to readers matches the actual verification date and will be rechecked before the source register's `review_by` deadline.
 - [ ] Facts, fictional examples, assumptions, and variation are clearly separated.
 - [ ] No claim is stronger than its source.
 
@@ -30,12 +31,15 @@ Use `/glossary/overtrading` and `knowledge/13-glossary-teaching-standard.md` as 
 - [ ] The first sentence gives a complete plain-English definition.
 - [ ] The page speaks directly to one trader using very simple English.
 - [ ] A motivated non-trader can repeat the meaning after one read.
+- [ ] The wording sounds like a clear explanation to a trader, without unnecessary formal or academic language.
+- [ ] A grammar pass preserves the human editor's intended meaning and direct voice.
 
 ## 4. Educational Value — 10
 
 - [ ] The page explains why the term matters.
 - [ ] One labelled practical example makes the meaning concrete.
 - [ ] Common confusion and the practical boundary are clear.
+- [ ] For a confusing rule, the page explains what is checked, how it is calculated, what happens next, and whether the exact program treats the result as a breach or unmet condition.
 
 ## 5. Structure — 10
 

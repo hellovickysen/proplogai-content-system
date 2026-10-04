@@ -7,7 +7,7 @@ The daily operator processes at most one primary item at a time unless a human c
 3. Confirm inventory, GSC evidence, SEO registers, and source-register freshness.
 4. Generate the correct blog or glossary draft using the canonical schema.
 5. Run SEO/register reconciliation, fact check, 100-point AI QA, and both validators.
-6. Route a passing exact revision and hash to `Human Review`; route failures to the matching failure status.
+6. Route a passing exact revision and hash to `Human Review`; route failures to the matching failure status. For an implemented page, verify its exact local route and include the clickable browser URL in the handoff.
 7. Log the run and stop. Do not approve or publish.
 
 Maintain a small approved buffer only after real review capacity is known. Quality and current evidence outrank daily volume.

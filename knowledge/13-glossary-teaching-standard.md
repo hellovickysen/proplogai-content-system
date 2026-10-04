@@ -17,6 +17,15 @@ The glossary defines; the blog teaches the full application. Do not turn a gloss
 5. State firm-specific variation or limits when relevant.
 6. Link useful related terms and one deeper guide.
 
+For a confusing prop-firm rule, organise the explanation around four direct questions:
+
+1. What does the firm check: a day, a trade, or another result?
+2. How does the calculation work with a simple USD example?
+3. What happens when the result is over the stated limit?
+4. Does the exact program call that a breach, delay, higher target, or unmet condition?
+
+Do not stop after defining the formula. The trader must understand the consequence and what must be checked in the firm's current rules.
+
 ## Talk directly to one trader
 
 - Use `you` and `your` naturally.
@@ -26,6 +35,8 @@ The glossary defines; the blog teaches the full application. Do not turn a gloss
 - Keep IST when local timing matters; do not convert forex or prop-firm P&L examples to INR.
 - Explain necessary jargon in the sentence. Link related approved glossary terms without replacing the explanation with a link.
 - Keep decision quality separate from whether a trade won or lost.
+- Prefer the words a trader would use in a clear conversation. Use technical calculation terms only when they improve accuracy, and explain them immediately.
+- When reviewing a human rewrite, preserve its intended explanation and direct voice while correcting grammar and factual overstatement.
 
 ## Visual teaching
 
@@ -46,3 +57,5 @@ A glossary visual is optional. Use one only when it makes the definition faster 
 - Are related terms explained and linked naturally?
 - Does any visual reduce the effort needed to understand the term?
 - Are variation, safety, and advice boundaries clear?
+- Can the reader explain both the calculation and what may happen next?
+- Did the final grammar pass keep the human editor's natural voice?

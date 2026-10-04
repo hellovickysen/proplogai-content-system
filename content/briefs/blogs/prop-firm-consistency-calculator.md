@@ -10,7 +10,7 @@ topic_cluster: "Prop Firm Rules and Readiness"
 primary_keyword: "consistency rule calculator"
 supporting_keywords: [prop firm consistency calculator, prop firm consistency rule, calculate consistency rule]
 search_intent: "Informational utility"
-target_reader: "An Indian forex or prop-firm trader who needs to calculate a best-day percentage without mistaking the result for trading instructions or official payout approval."
+target_reader: "An Indian forex or prop-firm trader who needs to calculate a best-day or best-trade percentage without mistaking the result for trading instructions or official payout approval."
 keyword_evidence: "Current search review"
 keyword_market: "India / English"
 market_tier: "Primary"
@@ -29,7 +29,7 @@ brief_approved_at: "2026-09-29"
 
 ## Primary question and promise
 
-Help one trader calculate a best-day consistency percentage, understand why a losing day can raise it, and compare it with the exact rule copied from the current program. Make clear that the result is arithmetic rather than official account or payout status.
+Help one trader choose the correct best-day or best-trade method, calculate the consistency percentage, understand what changes it, and compare it with the exact rule copied from the current program. Make clear that the result is arithmetic rather than official account or payout status.
 
 ## Reader problem
 
@@ -59,7 +59,7 @@ Use a fictional five-day XAUUSD record with named London and New York setups. Sp
 
 1. Open with a five-day XAUUSD record and a 50% result.
 2. Link the live calculator early.
-3. State the exact best-day formula and when it is not applicable.
+3. Explain the calculator's Largest Day and Largest Trade options, then state the exact formula used by each.
 4. Explain best-day versus best-trade rules before using any threshold.
 5. Show daily net results in a horizontally scrollable table.
 6. Explain why a −$150 day changes $400 ÷ $950 from 42.1% to $400 ÷ $800 = 50%.
@@ -71,7 +71,8 @@ Use a fictional five-day XAUUSD record with named London and New York setups. Sp
 
 ## Firm/program variation and formula assumptions
 
-- The blog and tool cover only best profit day ÷ total net profit × 100.
+- The blog's worked example uses best profit day ÷ total net profit × 100.
+- The live tool supports both Largest Day and Largest Trade. The selected day or trade result is divided by total net profit.
 - Remove all claims about a universal or common threshold range.
 - Topstep Trading Combine and Express Funded Account Consistency path must remain separate.
 - The calculator may compare the result with a user-entered official limit, but it must not state payout eligibility or tell the trader to continue trading.
@@ -103,7 +104,7 @@ Use one factual mention: PropLogAI can store manually logged results, emotions, 
 - Reuse the square visual in the glossary with click/tap zoom.
 - Add three 1:1 handwritten WebP notes: best day versus best trade, a 50%-to-40% worked change, and an over-limit consequence decision.
 - The existing main-site calculator is the interactive element; do not duplicate it inside the article.
-- Remove preset thresholds, best-trade mode, payout-ready labels, what-if trading prompts, and universal FAQ ranges from the live tool.
+- Preserve the Largest Day and Largest Trade choices. Remove payout-ready labels, what-if trading prompts, universal FAQ ranges, and any wording that treats the arithmetic as official account status.
 - Verify the article table scrolls inside its container at 390 px with no page-level overflow.
 
 ## Human approval

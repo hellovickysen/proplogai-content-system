@@ -19,6 +19,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 
 - [ ] Material claims map to current source-register IDs.
 - [ ] Time-sensitive claims include checked/review dates.
+- [ ] Any source-check date shown to readers matches the actual verification date and will be rechecked before the source register's `review_by` deadline.
 - [ ] Product, feature, fee, availability, and firm-rule language is precise.
 - [ ] Facts, examples, assumptions, and opinions are separated.
 - [ ] No claim is stronger than its source.
@@ -41,6 +42,8 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] Sentences and paragraphs are easy to scan.
 - [ ] One main idea is explained at a time.
 - [ ] Very simple English and common words are used so a motivated non-trader can understand the main lesson.
+- [ ] Abstract calculation terms are replaced with the actual day, trade, profit, loss, or rule unless the technical term is necessary and explained.
+- [ ] A grammar pass preserves the human editor's intended meaning and direct voice instead of making the copy formal.
 
 ## 4. Educational Value — 10
 
@@ -49,6 +52,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] Common mistakes and trade-offs are explained.
 - [ ] Process quality is separated from the trade outcome.
 - [ ] The reader leaves with a safe, practical review step.
+- [ ] For a confusing rule, the article explains what is checked, how it is calculated, what happens next, and whether the exact program treats the result as a breach or unmet condition.
 
 ## 5. Structure — 10
 

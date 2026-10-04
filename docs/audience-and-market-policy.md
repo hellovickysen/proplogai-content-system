@@ -9,6 +9,7 @@ Use clear Indian English and IST when time or session context matters. Forex tra
 ## Primary-market evidence
 
 - Run keyword tools with India as the location and English as the language.
+- For Semrush research, use the India database through the signed-in NoxTools browser session, record the server and checked date, and switch servers when login, limits, or missing page data prevent the research.
 - Filter Search Console by country `ind` for active India decisions.
 - Store the country, language, source, and checked date beside every metric.
 - Keep global and other-country exports as dated historical or secondary evidence. Never blend volumes from multiple countries into one metric.
