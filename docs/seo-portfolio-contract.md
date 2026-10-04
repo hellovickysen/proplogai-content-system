@@ -31,6 +31,8 @@ For each brief or rewrite, the SEO Editor must:
 9. Record reciprocal-link tasks and gaps without silently changing live content.
 10. Reconcile the draft and both registers before AI QA.
 
+For Semrush work, use the direct signed-in NoxTools browser route. Start with Server 1 and try the remaining servers only after a login, limit, or data failure. Every saved result must identify the Semrush database, server, query, checked date, and missing metrics. If all usable servers fail, record the failure and notify the user. Do not infer values from missing fields or submit support requests without explicit instruction.
+
 The SEO register also records category, pillar status, paired blog/glossary URLs, keyword evidence type, market, checked date, and any measured volume, difficulty, or CPC. India in English is the default market. Never invent, backfill, or combine country metrics. Use `Editorial hypothesis` when no India GSC or live India keyword evidence supports a phrase.
 
 ## Article-register rules

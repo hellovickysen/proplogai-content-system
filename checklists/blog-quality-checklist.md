@@ -19,6 +19,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 
 - [ ] Material claims map to current source-register IDs.
 - [ ] Time-sensitive claims include checked/review dates.
+- [ ] Any source-check date shown to readers matches the actual verification date and will be rechecked before the source register's `review_by` deadline.
 - [ ] Product, feature, fee, availability, and firm-rule language is precise.
 - [ ] Facts, examples, assumptions, and opinions are separated.
 - [ ] No claim is stronger than its source.
@@ -34,10 +35,15 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 ## 3. Beginner Clarity — 10
 
 - [ ] The main question is answered near the beginning.
+- [ ] The article speaks directly to one trader using `you` and `your` naturally.
+- [ ] A recognisable feeling or decision moment is described calmly, without shame or diagnosis.
 - [ ] Technical terms are explained on first useful mention.
+- [ ] Necessary trading jargon links to its approved glossary meaning when available; missing definitions are recorded as gaps.
 - [ ] Sentences and paragraphs are easy to scan.
 - [ ] One main idea is explained at a time.
-- [ ] Language aims for Grade 6–8 readability without losing accuracy.
+- [ ] Very simple English and common words are used so a motivated non-trader can understand the main lesson.
+- [ ] Abstract calculation terms are replaced with the actual day, trade, profit, loss, or rule unless the technical term is necessary and explained.
+- [ ] A grammar pass preserves the human editor's intended meaning and direct voice instead of making the copy formal.
 
 ## 4. Educational Value — 10
 
@@ -46,6 +52,7 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] Common mistakes and trade-offs are explained.
 - [ ] Process quality is separated from the trade outcome.
 - [ ] The reader leaves with a safe, practical review step.
+- [ ] For a confusing rule, the article explains what is checked, how it is calculated, what happens next, and whether the exact program treats the result as a breach or unmet condition.
 
 ## 5. Structure — 10
 
@@ -69,12 +76,19 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 - [ ] The published cover uses WebP, loads from the final article path, and has been checked for dimensions, visual quality, and file size.
 - [ ] A visual, table, diagram, or comparison is used or recommended only when it improves understanding.
 - [ ] Every recommendation has a teaching purpose and accessible alt-text direction.
+- [ ] A handwritten chart or process is broken into progressive panels with one new point per panel and the complete view last.
+- [ ] Text-heavy handwritten teaching panels use a mobile-readable ratio, normally 1:1, while the cover remains 16:9.
+- [ ] Detailed teaching images support accessible click/tap zoom with a visible close control and mobile-safe enlarged view.
+- [ ] Tables retain readable column widths and scroll horizontally inside their own area on mobile; text is not squeezed into vertical word stacks.
+- [ ] Table QA at 390 px confirms touch scrolling and no page-level horizontal overflow.
+- [ ] Generated handwritten text, chart labels, prices, arrows, and session logic were checked for errors.
 - [ ] Visuals avoid unsupported performance or safety implications.
 - [ ] If no visual helps, the omission is documented and may still score 9–10.
 
 ## 8. Interactive Learning — 10
 
 - [ ] A calculator, checklist, walkthrough, or decision aid is used or recommended only when useful.
+- [ ] No interactive element was added merely to make the article look advanced.
 - [ ] Assumptions and limitations are visible.
 - [ ] The interaction does not provide a signal, forecast, or personalised instruction.
 - [ ] The article remains understandable without the interaction.
@@ -91,7 +105,9 @@ AI QA passes only when the total is at least 90/100, Accuracy and Safety are eac
 
 ## 10. PropLogAI Alignment — 10
 
+- [ ] The complete reading experience meets the usefulness, clarity, practical teaching, glossary integration, accuracy, and safety level of the approved `/blogs/overtrading-prop-firm-challenges` benchmark without copying its structure unnecessarily.
 - [ ] Tone is calm, practical, evidence-based, and non-promotional.
+- [ ] The public copy teaches the trader and does not read like SEO copy, a research paper, or a sales page.
 - [ ] PropLogAI is described as a journaling and discipline-review system.
 - [ ] Product claims match the current approved claim register.
 - [ ] The content remains useful without a product mention or CTA.

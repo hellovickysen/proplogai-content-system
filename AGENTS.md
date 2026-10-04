@@ -6,7 +6,7 @@ Treat this as a standalone PropLogAI system. Never import topics, keywords, cate
 
 Treat India in English as the primary audience and SEO market. Follow `docs/audience-and-market-policy.md`. Other-country opportunities are allowed only with separate market-specific evidence and a recorded canonical/localisation decision; never blend country metrics.
 
-Use the relevant skill, playbook, template, and checklist. Preserve sources, checked dates, revision status, and human-review state in every deliverable.
+Use the relevant skill, playbook, template, and checklist. Public articles must follow `knowledge/12-direct-trader-teaching.md`: talk to one trader, use very simple English, explain necessary jargon, link approved glossary meanings, and choose visuals for teaching rather than decoration. Preserve sources, checked dates, revision status, and human-review state in every deliverable.
 
 Never connect this repository to PropLogAI production, publish content, change CMS data, or add credentials unless the user explicitly authorizes that separate integration. Never move an AI-generated item to `content/approved/` without recorded human approval of the exact revision.
 

@@ -13,12 +13,13 @@ Produce one review-ready local blog or glossary draft from one approved brief. S
 5. Use `skills/seo/seo-editor.md` to confirm intent, canonical ownership, content type, cluster, pillar, GSC evidence, overlap, metadata direction, and quality-checked destinations.
 6. Update `content-map/seo-article-register.csv`. Do not rely on memory.
 7. Build and record the exact-anchor internal-link plan in `content-map/internal-link-register.csv` before drafting. Do not force a link.
-8. Draft with the relevant blog or glossary playbook and machine-readable template.
-9. Run `skills/fact-checking/fact-checker.md`. Resolve, remove, or block every unsupported sensitive claim before QA.
-10. Run `skills/qa/qa-reviewer.md` using the applicable 100-point rubric and record all ten scores.
-11. Reconcile the draft, source IDs, SEO register, and link register.
-12. Run `scripts/validate-content.ps1` and `scripts/validate-system.ps1`.
-13. If all gates pass, move the exact revision to `Human Review`. AI must not approve it.
+8. Draft with the relevant playbook and machine-readable template. Blogs use `knowledge/12-direct-trader-teaching.md`; glossary pages use `knowledge/13-glossary-teaching-standard.md`. Speak directly to one trader in very simple English. Explain necessary jargon and link its first useful mention to an approved glossary page. Choose visuals for teaching; do not force an interactive element.
+9. When content uses a table, preserve readable column widths and make the table horizontally scrollable on mobile. Do not squeeze multi-column text into vertical word stacks. Verify table scrolling and no page-level overflow at 390 px.
+10. Run `skills/fact-checking/fact-checker.md`. Resolve, remove, or block every unsupported sensitive claim before QA.
+11. Run `skills/qa/qa-reviewer.md` using the applicable 100-point rubric and record all ten scores.
+12. Reconcile the draft, source IDs, SEO register, and link register.
+13. Run `scripts/validate-content.ps1` and `scripts/validate-system.ps1`.
+14. If all gates pass, move the exact revision to `Human Review`. AI must not approve it.
 
 ## Required output
 

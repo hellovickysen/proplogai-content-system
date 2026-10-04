@@ -13,9 +13,13 @@ Machine-readable production briefs use `templates/content-brief.md` with `conten
 - Evidence basis: Search Console / current search results / editorial hypothesis
 - Definition intent:
 - Target reader:
+- Recognisable reader moment:
 - One-sentence definition to verify:
+- Plain-English terms that need explanation:
+- Practical example direction:
 - Firm-specific variation:
 - Common confusion:
+- Visual decision and teaching purpose:
 - Related terms:
 - Deeper guide candidate:
 - Existing pages to update, consolidate, or avoid:

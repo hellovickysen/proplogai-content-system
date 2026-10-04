@@ -23,6 +23,16 @@ The writer records the register ID in the brief or review notes. A URL alone is 
 
 `review_by` is the operational deadline. If the deadline has passed, the claim automatically becomes `Needs Fact Check` until rechecked.
 
+## Dates shown to readers
+
+A visible phrase such as `checked on`, `rechecked on`, `current as of`, or `last verified` is a freshness claim. Use it only when the named sources were actually opened and checked on that date.
+
+- The visible date must match the source register and the draft's `source_checked` field.
+- Recheck every cited time-sensitive source before its `review_by` date. If the article remains live after that deadline, refresh the claim and visible date or remove the dated claim until verification is complete.
+- Never advance a visible date merely to make an article appear fresh.
+- Historical dates used inside a fictional example do not require periodic updating, but they must remain clearly part of the example.
+- A date review is required whenever a page with visible source-check dates is refreshed, approved, or prepared for publication.
+
 ## Source quality
 
 Use the product or firm's own current page for product features and rules. Use the original paper, official body, or transparent dataset for research and statistics. Search snippets, copied summaries, affiliate pages, and unsourced marketing copy cannot approve a claim.

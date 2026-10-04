@@ -6,7 +6,7 @@ Canonical entry point: `prompts/run-daily-content.md`. Canonical record contract
 2. Decide create, update, consolidate, or defer.
 3. Complete `templates/content-brief.md` with `content_type: "Blog"`, use `templates/blog-brief.md` as the planning view, and obtain human brief approval.
 4. Verify sources and current PropLogAI or prop-firm claims.
-5. Draft with the Blog Writer, `templates/article-output.md`, and `templates/blog-output.md`.
+5. Draft with the Blog Writer, `knowledge/12-direct-trader-teaching.md`, `templates/article-output.md`, and `templates/blog-output.md`. Use `/blogs/overtrading-prop-firm-challenges` as the approved quality benchmark. Speak to one trader directly, use very simple English, explain necessary jargon, and choose a visual only when it improves the lesson. Match the benchmark's usefulness and clarity without copying its structure or forcing an interaction.
 6. Update both SEO registers; run SEO Editor, Fact Checker, and the 100-point QA Reviewer.
 7. Create the revision hash, run both validators, and save the exact passing revision under `content/drafts/blogs/` as `Human Review`.
 8. A human approves or requests changes.
