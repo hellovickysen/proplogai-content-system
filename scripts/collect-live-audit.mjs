@@ -27,7 +27,7 @@ const strip = (value = '') => decode(value
   .trim());
 
 const attrs = (tag = '') => Object.fromEntries(
-  [...tag.matchAll(/([:\w-]+)\s*=\s*["']([^"']*)["']/g)].map((match) => [match[1].toLowerCase(), decode(match[2])]),
+  [...tag.matchAll(/([:\w-]+)\s*=\s*(["'])(.*?)\2/g)].map((match) => [match[1].toLowerCase(), decode(match[3])]),
 );
 
 const csv = (value) => {
