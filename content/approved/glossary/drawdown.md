@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-01-drawdown"
 revision: 1
 revision_hash: "56dd4bbe80c8b9a504587ffa229c4ac573e675ed78b456c5f914f008f8ce100e"
 title: "Drawdown"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"

@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-02-trading-performance-metrics"
 revision: 1
 revision_hash: "3225ff71bda4fc920abb66a3992f0462ea863beb8935aaffc816cc70aaec3fac"
 title: "Trading Performance Metrics: How to Read Your Numbers Together"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Performance Analytics"
 content_role: "Pillar"

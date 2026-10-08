@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-trading-journal"
 revision: 1
 revision_hash: "150b36bf2fc5a7c9052639423e7c81f97909083cbd5d62a2ed0b4241815eebe4"
 title: "Trading Journal"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Journal & Analysis"
 content_role: "Definition"

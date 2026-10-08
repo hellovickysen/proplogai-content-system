@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-risk-per-trade"
 revision: 1
 revision_hash: "26f61e2cee6a11f988b4e0f0d900dcf3f739a38ba9ea690d45670d47d2e3cf13"
 title: "Risk Per Trade"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"

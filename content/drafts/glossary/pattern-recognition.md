@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-pattern-recognition"
 revision: 1
 revision_hash: "afa9a5e7d5191617bebc63917045467cccd55d5cc561b5bbbd418517643f8e52"
 title: "Pattern Recognition"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Journal & Analysis"
 content_role: "Definition"

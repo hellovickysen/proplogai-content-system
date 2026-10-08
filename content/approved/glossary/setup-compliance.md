@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-07-setup-compliance"
 revision: 1
 revision_hash: "c131f1c4d32ab0be2d503db12832c5f86e91e6adfab3bce4816f701c0aaf5cf6"
 title: "Setup Compliance"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"

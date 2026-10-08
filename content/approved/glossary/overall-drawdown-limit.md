@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-overall-drawdown-limit"
 revision: 1
 revision_hash: "0dff925692d8f95fc404d009ef1b9f79f8e8aad55239037978483a2ce7a726e3"
 title: "Overall Drawdown Limit"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Prop Firm Rules and Readiness"

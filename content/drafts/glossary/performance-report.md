@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-performance-report"
 revision: 1
 revision_hash: "36c118a408e893c3c27edae77aae79447d6a7576318278abc7a3308aa1f8224c"
 title: "Trading Performance Report"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

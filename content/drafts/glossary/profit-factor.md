@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-profit-factor"
 revision: 1
 revision_hash: "ce642bf99df5294b037d44e2a6d0598a214e58c08d289546d528401b43a09257"
 title: "Profit Factor"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

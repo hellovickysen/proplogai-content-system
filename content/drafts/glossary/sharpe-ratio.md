@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-sharpe-ratio"
 revision: 1
 revision_hash: "f7ac79effd4dfe94647f75da22cf65e750d024e4245a54cef887a07c877e0da5"
 title: "Sharpe Ratio"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

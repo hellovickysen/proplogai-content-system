@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-overtrading"
 revision: 1
 revision_hash: "43c0407799d6267da9d022cd37935b5402c3a1706ccfa7aee9b00c26bd0a4091"
 title: "Overtrading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"

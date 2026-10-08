@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-stop-loss"
 revision: 1
 revision_hash: "832b52e2c744f0567ac4ca4d45816c76a587f0f461c911e25bb7cbf384d8074c"
 title: "Stop Loss"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"

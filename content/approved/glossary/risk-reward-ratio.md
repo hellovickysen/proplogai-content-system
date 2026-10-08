@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-risk-reward-ratio"
 revision: 1
 revision_hash: "fa8627b95c4f79d4980f026896dd92f3fe86df39ed5bc42bd0085d37d4a95dd8"
 title: "Risk-Reward Ratio"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"

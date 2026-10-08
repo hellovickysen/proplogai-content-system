@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-equity-curve"
 revision: 1
 revision_hash: "9bd27790ae47c7b9acc3a55b57c2359b0f0e28d48a62707b410dc297bf6ac5de"
 title: "Equity Curve"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

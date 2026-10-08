@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-02-prop-firm-payout-rules"
 revision: 1
 revision_hash: "46fd094876f373b627e2468a81247fb99c656c9e246849e5ae1114820804b372"
 title: "Prop Firm Payout Rules: What to Check Before Requesting a Payout"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Costs and Payouts"
 content_role: "Cluster Guide"

@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-01-prop-firm-trading-journal"
 revision: 1
 revision_hash: "ef98c7a85f2fcb2b10e28f6306aee89fda9bc5d4358830566ddff00205890a3d"
 title: "Prop Firm Trading Journal: What to Track and How to Review It"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Journaling"
 content_role: "Pillar"

@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-rule-based-trading"
 revision: 1
 revision_hash: "2dfa07cecef645d0e3adbc452877cf86d22f5dbf3e5af3505cd5e37724bd3410"
 title: "Rule-Based Trading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"

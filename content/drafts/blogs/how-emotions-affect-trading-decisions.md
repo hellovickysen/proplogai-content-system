@@ -3,7 +3,7 @@ item_id: "proplogai-2026-09-25-how-emotions-affect-trading-decisions"
 revision: 1
 revision_hash: "54d7c552738a6b76d5e0438b74270c7d89fe4649f57af391f6944f02b8007d49"
 title: "How Emotions Affect Trading Decisions: A Practical Review"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Trading Psychology"
 content_role: "Cluster support"

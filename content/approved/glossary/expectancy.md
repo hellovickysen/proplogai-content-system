@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-expectancy"
 revision: 1
 revision_hash: "e097322de976f6588808688ac544e7292ceb99698d9358443bcdb59ee7696bc4"
 title: "Trading Expectancy"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

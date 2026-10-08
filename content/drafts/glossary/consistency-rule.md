@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-consistency-rule"
 revision: 1
 revision_hash: "889ae9d5e5cd67b4b95cacf9fe81c37f90e2d294e7380e9c6b5f1e69d883aca8"
 title: "Consistency Rule"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Prop Firm"
 content_role: "Definition"

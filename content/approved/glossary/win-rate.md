@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-win-rate"
 revision: 1
 revision_hash: "9d94c5ca494a82df5ec006b77c3c5e75349f042c380cf7ff5cb5de82e0e27ace"
 title: "Win Rate"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"
