@@ -141,8 +141,8 @@ foreach ($row in $rows) {
     }
 }
 
-$legacyMatches = @(Get-ChildItem -LiteralPath $root -Recurse -File -Include '*.md','*.csv' |
-    Where-Object { $_.FullName -notlike '*README.md' } |
+$legacyMatches = @(Get-ChildItem -LiteralPath $root -Recurse -File |
+    Where-Object { $_.Extension -in '.md','.csv' -and $_.FullName -notlike '*README.md' } |
     Select-String -Pattern 'Sahal|Shariah-guided|halal digital finance')
 if ($legacyMatches.Count -gt 0) {
     throw 'External-project-specific content remains in the PropLogAI system.'
