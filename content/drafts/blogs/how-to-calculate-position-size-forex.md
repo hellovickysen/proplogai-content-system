@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-09-how-to-calculate-position-size-forex"
 revision: 2
 revision_hash: "580b980f47767dda1df6d569364b03dd56df4dacc6cb5ef7d01b700e2614f239"
 title: "How to Calculate Position Size in Forex"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Risk Management"
 content_role: "Utility guide"
