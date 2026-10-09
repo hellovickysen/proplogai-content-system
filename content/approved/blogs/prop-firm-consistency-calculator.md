@@ -3,7 +3,7 @@ item_id: "proplogai-2026-09-29-prop-firm-consistency-calculator"
 revision: 4
 revision_hash: "73788121a189d5a7a43206375a83a9533c13d0485d0f3b380d308cad59435389"
 title: "Consistency Rule Calculator for Prop Firm Traders"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Prop Firm Rules"
 content_role: "Utility guide"

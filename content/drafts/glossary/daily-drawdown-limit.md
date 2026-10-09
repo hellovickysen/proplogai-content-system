@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-daily-drawdown-limit"
 revision: 1
 revision_hash: "00d87e8f62e8ea76a65599fc9d6247ef83703479b2192622eddd47bb18ac6e53"
 title: "Daily Drawdown Limit"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Risk and Drawdown"

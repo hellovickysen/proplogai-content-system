@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-average-win-vs-average-loss"
 revision: 1
 revision_hash: "e481bdfb7c25d9c4756ebbdf1165d1b6f7a36a79f94262bc914718c1cb65af9f"
 title: "Average Win vs Average Loss"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Performance Analytics"
 content_role: "Definition"

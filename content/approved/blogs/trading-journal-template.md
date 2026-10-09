@@ -3,7 +3,7 @@ item_id: "proplogai-2026-09-24-trading-journal-template"
 revision: 5
 revision_hash: "597a264d82268aa58b6960ef9e38f3642dbaf699d4620084c0f611bd5f7a932b"
 title: "Trading Journal Template for Prop Firm Traders"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Journaling"
 content_role: "Template"

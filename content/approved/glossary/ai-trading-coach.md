@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-ai-trading-coach"
 revision: 1
 revision_hash: "05daa5912e2e68bcfa826aea58c6bd956b856a17595c686c811a35dc3e9e533f"
 title: "AI Trading Coach"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Journal & Analysis"
 content_role: "Definition"

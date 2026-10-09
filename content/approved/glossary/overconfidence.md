@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-overconfidence"
 revision: 1
 revision_hash: "291210f59a7f7554f5133a65d71716b64cd0dcefe93ed133473baa43fb5ae9b8"
 title: "Overconfidence in Trading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Trading Psychology and Emotions"

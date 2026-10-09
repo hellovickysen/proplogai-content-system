@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-funded-account"
 revision: 1
 revision_hash: "babf54a318fd3ab46a7597f69672c9b8d83cc4c1df43069bd57954259934ced3"
 title: "Funded Trading Account"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Prop Firm Rules and Readiness"

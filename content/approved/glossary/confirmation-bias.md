@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-confirmation-bias"
 revision: 1
 revision_hash: "4ab60d9b7b91ae111c0491d8290212a1fcb22513136b6ae1d2bcb64a984150a3"
 title: "Confirmation Bias in Trading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Psychology"
 content_role: "Definition"

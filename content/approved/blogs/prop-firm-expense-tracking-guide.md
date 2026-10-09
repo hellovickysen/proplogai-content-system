@@ -3,7 +3,7 @@ item_id: "proplogai-2026-09-25-prop-firm-expense-tracking-guide"
 revision: 2
 revision_hash: "446e277f0923f4a6c0ee7938cf9d340691f4e89be0da47d0a38907cecd44afea"
 title: "Prop Firm Expense Tracking: What to Record and Review"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Costs and Payouts"
 content_role: "Pillar"

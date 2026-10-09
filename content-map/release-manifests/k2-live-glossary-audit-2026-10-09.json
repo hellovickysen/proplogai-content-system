@@ -1,0 +1,1530 @@
+{
+  "checked_at": "2026-10-08T23:56:32+05:30",
+  "sitemap": {
+    "url": "https://proplogai.com/glossary/sitemap.xml",
+    "status": 200,
+    "final_url": "https://proplogai.com/glossary/sitemap.xml",
+    "url_count": 36
+  },
+  "page_count": 36,
+  "term_count": 35,
+  "unique_internal_destinations": 72,
+  "unique_images": 36,
+  "pages": [
+    {
+      "url": "https://proplogai.com/glossary",
+      "lastmod": "2026-09-21",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary",
+      "canonical": [
+        "https://proplogai.com/glossary"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "CollectionPage",
+        "DefinedTerm",
+        "DefinedTermSet"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 84325
+    },
+    {
+      "url": "https://proplogai.com/glossary/fomo",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/fomo",
+      "canonical": [
+        "https://proplogai.com/glossary/fomo"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27985
+    },
+    {
+      "url": "https://proplogai.com/glossary/revenge-trading",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/revenge-trading",
+      "canonical": [
+        "https://proplogai.com/glossary/revenge-trading"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31891
+    },
+    {
+      "url": "https://proplogai.com/glossary/tilt",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/tilt",
+      "canonical": [
+        "https://proplogai.com/glossary/tilt"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31373
+    },
+    {
+      "url": "https://proplogai.com/glossary/confirmation-bias",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/confirmation-bias",
+      "canonical": [
+        "https://proplogai.com/glossary/confirmation-bias"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 30724
+    },
+    {
+      "url": "https://proplogai.com/glossary/loss-aversion",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/loss-aversion",
+      "canonical": [
+        "https://proplogai.com/glossary/loss-aversion"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27858
+    },
+    {
+      "url": "https://proplogai.com/glossary/overconfidence",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overconfidence",
+      "canonical": [
+        "https://proplogai.com/glossary/overconfidence"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31681
+    },
+    {
+      "url": "https://proplogai.com/glossary/drawdown",
+      "lastmod": "2026-10-01",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/drawdown",
+      "canonical": [
+        "https://proplogai.com/glossary/drawdown"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 29430
+    },
+    {
+      "url": "https://proplogai.com/glossary/position-sizing",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/position-sizing",
+      "canonical": [
+        "https://proplogai.com/glossary/position-sizing"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27694
+    },
+    {
+      "url": "https://proplogai.com/glossary/risk-reward-ratio",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/risk-reward-ratio",
+      "canonical": [
+        "https://proplogai.com/glossary/risk-reward-ratio"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 28031
+    },
+    {
+      "url": "https://proplogai.com/glossary/stop-loss",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/stop-loss",
+      "canonical": [
+        "https://proplogai.com/glossary/stop-loss"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27970
+    },
+    {
+      "url": "https://proplogai.com/glossary/risk-per-trade",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/risk-per-trade",
+      "canonical": [
+        "https://proplogai.com/glossary/risk-per-trade"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 28559
+    },
+    {
+      "url": "https://proplogai.com/glossary/win-rate",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/win-rate",
+      "canonical": [
+        "https://proplogai.com/glossary/win-rate"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27149
+    },
+    {
+      "url": "https://proplogai.com/glossary/profit-factor",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/profit-factor",
+      "canonical": [
+        "https://proplogai.com/glossary/profit-factor"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27765
+    },
+    {
+      "url": "https://proplogai.com/glossary/expectancy",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/expectancy",
+      "canonical": [
+        "https://proplogai.com/glossary/expectancy"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27572
+    },
+    {
+      "url": "https://proplogai.com/glossary/sharpe-ratio",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/sharpe-ratio",
+      "canonical": [
+        "https://proplogai.com/glossary/sharpe-ratio"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27708
+    },
+    {
+      "url": "https://proplogai.com/glossary/average-win-vs-average-loss",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/average-win-vs-average-loss",
+      "canonical": [
+        "https://proplogai.com/glossary/average-win-vs-average-loss"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27940
+    },
+    {
+      "url": "https://proplogai.com/glossary/equity-curve",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/equity-curve",
+      "canonical": [
+        "https://proplogai.com/glossary/equity-curve"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 27990
+    },
+    {
+      "url": "https://proplogai.com/glossary/trading-plan",
+      "lastmod": "2026-10-07",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trading-plan",
+      "canonical": [
+        "https://proplogai.com/glossary/trading-plan"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31874
+    },
+    {
+      "url": "https://proplogai.com/glossary/setup-compliance",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/setup-compliance",
+      "canonical": [
+        "https://proplogai.com/glossary/setup-compliance"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31346
+    },
+    {
+      "url": "https://proplogai.com/glossary/overtrading",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overtrading",
+      "canonical": [
+        "https://proplogai.com/glossary/overtrading"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 34489
+    },
+    {
+      "url": "https://proplogai.com/glossary/pre-market-routine",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/pre-market-routine",
+      "canonical": [
+        "https://proplogai.com/glossary/pre-market-routine"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31312
+    },
+    {
+      "url": "https://proplogai.com/glossary/trade-management",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trade-management",
+      "canonical": [
+        "https://proplogai.com/glossary/trade-management"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 32027
+    },
+    {
+      "url": "https://proplogai.com/glossary/rule-based-trading",
+      "lastmod": "2026-10-07",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/rule-based-trading",
+      "canonical": [
+        "https://proplogai.com/glossary/rule-based-trading"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31342
+    },
+    {
+      "url": "https://proplogai.com/glossary/prop-firm-challenge",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/prop-firm-challenge",
+      "canonical": [
+        "https://proplogai.com/glossary/prop-firm-challenge"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 29961
+    },
+    {
+      "url": "https://proplogai.com/glossary/funded-account",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/funded-account",
+      "canonical": [
+        "https://proplogai.com/glossary/funded-account"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 30135
+    },
+    {
+      "url": "https://proplogai.com/glossary/overall-drawdown-limit",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overall-drawdown-limit",
+      "canonical": [
+        "https://proplogai.com/glossary/overall-drawdown-limit"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 30341
+    },
+    {
+      "url": "https://proplogai.com/glossary/profit-target",
+      "lastmod": "2026-10-05",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/profit-target",
+      "canonical": [
+        "https://proplogai.com/glossary/profit-target"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 28458
+    },
+    {
+      "url": "https://proplogai.com/glossary/consistency-rule",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/consistency-rule",
+      "canonical": [
+        "https://proplogai.com/glossary/consistency-rule"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 35865
+    },
+    {
+      "url": "https://proplogai.com/glossary/daily-drawdown-limit",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/daily-drawdown-limit",
+      "canonical": [
+        "https://proplogai.com/glossary/daily-drawdown-limit"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 30584
+    },
+    {
+      "url": "https://proplogai.com/glossary/trading-journal",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trading-journal",
+      "canonical": [
+        "https://proplogai.com/glossary/trading-journal"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31335
+    },
+    {
+      "url": "https://proplogai.com/glossary/trade-review",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trade-review",
+      "canonical": [
+        "https://proplogai.com/glossary/trade-review"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 28978
+    },
+    {
+      "url": "https://proplogai.com/glossary/emotion-tracking",
+      "lastmod": "2026-10-08",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/emotion-tracking",
+      "canonical": [
+        "https://proplogai.com/glossary/emotion-tracking"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 34231
+    },
+    {
+      "url": "https://proplogai.com/glossary/pattern-recognition",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/pattern-recognition",
+      "canonical": [
+        "https://proplogai.com/glossary/pattern-recognition"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31366
+    },
+    {
+      "url": "https://proplogai.com/glossary/performance-report",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/performance-report",
+      "canonical": [
+        "https://proplogai.com/glossary/performance-report"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 29688
+    },
+    {
+      "url": "https://proplogai.com/glossary/ai-trading-coach",
+      "lastmod": "2026-10-06",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/ai-trading-coach",
+      "canonical": [
+        "https://proplogai.com/glossary/ai-trading-coach"
+      ],
+      "canonical_ok": true,
+      "h1_count": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "DefinedTerm",
+        "DefinedTermSet",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 31293
+    }
+  ],
+  "internal_destinations": [
+    {
+      "url": "https://proplogai.com",
+      "status": 200,
+      "final_url": "https://proplogai.com",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 180097
+    },
+    {
+      "url": "https://proplogai.com/",
+      "status": 200,
+      "final_url": "https://proplogai.com/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 180097
+    },
+    {
+      "url": "https://proplogai.com/about",
+      "status": 200,
+      "final_url": "https://proplogai.com/about",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41287
+    },
+    {
+      "url": "https://proplogai.com/blogs",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 73360
+    },
+    {
+      "url": "https://proplogai.com/blogs/ai-journal-pattern-detection",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/ai-journal-pattern-detection",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33103
+    },
+    {
+      "url": "https://proplogai.com/blogs/ai-trading-coach-prop-firm",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/ai-trading-coach-prop-firm",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33322
+    },
+    {
+      "url": "https://proplogai.com/blogs/daily-drawdown-calculator",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/daily-drawdown-calculator",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41633
+    },
+    {
+      "url": "https://proplogai.com/blogs/how-emotions-affect-trading-decisions",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/how-emotions-affect-trading-decisions",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41862
+    },
+    {
+      "url": "https://proplogai.com/blogs/monthly-trading-review-template",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/monthly-trading-review-template",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 32231
+    },
+    {
+      "url": "https://proplogai.com/blogs/overtrading-prop-firm-challenges",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/overtrading-prop-firm-challenges",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 46413
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-challenge-readiness",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-challenge-readiness",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33288
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-consistency-calculator",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-consistency-calculator",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 48302
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-payout-rules",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-payout-rules",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 44785
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-risk-management",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-risk-management",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33675
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-rules-guide",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-rules-guide",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43295
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-trading-journal",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-trading-journal",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43347
+    },
+    {
+      "url": "https://proplogai.com/blogs/prop-firm-trading-rulebook",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/prop-firm-trading-rulebook",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 35675
+    },
+    {
+      "url": "https://proplogai.com/blogs/revenge-trading-prop-firm",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/revenge-trading-prop-firm",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43558
+    },
+    {
+      "url": "https://proplogai.com/blogs/tracking-trading-emotions",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/tracking-trading-emotions",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33399
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-discipline-checklist",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-discipline-checklist",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 45689
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-discipline-prop-firm",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-discipline-prop-firm",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33568
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-expectancy-calculator",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-expectancy-calculator",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 45629
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-journal-template",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-journal-template",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41039
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-performance-metrics",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-performance-metrics",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 46443
+    },
+    {
+      "url": "https://proplogai.com/blogs/trading-psychology-prop-firm",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/trading-psychology-prop-firm",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 32401
+    },
+    {
+      "url": "https://proplogai.com/blogs/weekly-trading-review-template",
+      "status": 200,
+      "final_url": "https://proplogai.com/blogs/weekly-trading-review-template",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 32804
+    },
+    {
+      "url": "https://proplogai.com/contact",
+      "status": 200,
+      "final_url": "https://proplogai.com/contact",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 38098
+    },
+    {
+      "url": "https://proplogai.com/dashboard",
+      "status": 200,
+      "final_url": "https://proplogai.com/login",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 18937
+    },
+    {
+      "url": "https://proplogai.com/glossary",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 84325
+    },
+    {
+      "url": "https://proplogai.com/glossary/ai-trading-coach",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/ai-trading-coach",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31293
+    },
+    {
+      "url": "https://proplogai.com/glossary/average-win-vs-average-loss",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/average-win-vs-average-loss",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27940
+    },
+    {
+      "url": "https://proplogai.com/glossary/confirmation-bias",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/confirmation-bias",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 30724
+    },
+    {
+      "url": "https://proplogai.com/glossary/consistency-rule",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/consistency-rule",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 35865
+    },
+    {
+      "url": "https://proplogai.com/glossary/daily-drawdown-limit",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/daily-drawdown-limit",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 30584
+    },
+    {
+      "url": "https://proplogai.com/glossary/drawdown",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/drawdown",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29430
+    },
+    {
+      "url": "https://proplogai.com/glossary/emotion-tracking",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/emotion-tracking",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 34231
+    },
+    {
+      "url": "https://proplogai.com/glossary/equity-curve",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/equity-curve",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27990
+    },
+    {
+      "url": "https://proplogai.com/glossary/expectancy",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/expectancy",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27572
+    },
+    {
+      "url": "https://proplogai.com/glossary/fomo",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/fomo",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27985
+    },
+    {
+      "url": "https://proplogai.com/glossary/funded-account",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/funded-account",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 30135
+    },
+    {
+      "url": "https://proplogai.com/glossary/loss-aversion",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/loss-aversion",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27858
+    },
+    {
+      "url": "https://proplogai.com/glossary/overall-drawdown-limit",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overall-drawdown-limit",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 30341
+    },
+    {
+      "url": "https://proplogai.com/glossary/overconfidence",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overconfidence",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31681
+    },
+    {
+      "url": "https://proplogai.com/glossary/overtrading",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/overtrading",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 34489
+    },
+    {
+      "url": "https://proplogai.com/glossary/pattern-recognition",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/pattern-recognition",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31366
+    },
+    {
+      "url": "https://proplogai.com/glossary/performance-report",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/performance-report",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29688
+    },
+    {
+      "url": "https://proplogai.com/glossary/position-sizing",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/position-sizing",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27694
+    },
+    {
+      "url": "https://proplogai.com/glossary/pre-market-routine",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/pre-market-routine",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31312
+    },
+    {
+      "url": "https://proplogai.com/glossary/profit-factor",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/profit-factor",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27765
+    },
+    {
+      "url": "https://proplogai.com/glossary/profit-target",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/profit-target",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28458
+    },
+    {
+      "url": "https://proplogai.com/glossary/prop-firm-challenge",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/prop-firm-challenge",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29961
+    },
+    {
+      "url": "https://proplogai.com/glossary/revenge-trading",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/revenge-trading",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31891
+    },
+    {
+      "url": "https://proplogai.com/glossary/risk-per-trade",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/risk-per-trade",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28559
+    },
+    {
+      "url": "https://proplogai.com/glossary/risk-reward-ratio",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/risk-reward-ratio",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28031
+    },
+    {
+      "url": "https://proplogai.com/glossary/rule-based-trading",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/rule-based-trading",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31342
+    },
+    {
+      "url": "https://proplogai.com/glossary/setup-compliance",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/setup-compliance",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31346
+    },
+    {
+      "url": "https://proplogai.com/glossary/sharpe-ratio",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/sharpe-ratio",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27708
+    },
+    {
+      "url": "https://proplogai.com/glossary/stop-loss",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/stop-loss",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27970
+    },
+    {
+      "url": "https://proplogai.com/glossary/tilt",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/tilt",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31373
+    },
+    {
+      "url": "https://proplogai.com/glossary/trade-management",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trade-management",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 32027
+    },
+    {
+      "url": "https://proplogai.com/glossary/trade-review",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trade-review",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28978
+    },
+    {
+      "url": "https://proplogai.com/glossary/trading-journal",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trading-journal",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31335
+    },
+    {
+      "url": "https://proplogai.com/glossary/trading-plan",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/trading-plan",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31874
+    },
+    {
+      "url": "https://proplogai.com/glossary/win-rate",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/win-rate",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27149
+    },
+    {
+      "url": "https://proplogai.com/login",
+      "status": 200,
+      "final_url": "https://proplogai.com/login",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 18937
+    },
+    {
+      "url": "https://proplogai.com/login?mode=signup",
+      "status": 200,
+      "final_url": "https://proplogai.com/login?mode=signup",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 18937
+    },
+    {
+      "url": "https://proplogai.com/pricing",
+      "status": 200,
+      "final_url": "https://proplogai.com/pricing",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 60255
+    },
+    {
+      "url": "https://proplogai.com/privacy",
+      "status": 200,
+      "final_url": "https://proplogai.com/privacy",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 70245
+    },
+    {
+      "url": "https://proplogai.com/refund-policy",
+      "status": 200,
+      "final_url": "https://proplogai.com/refund-policy",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 40037
+    },
+    {
+      "url": "https://proplogai.com/terms",
+      "status": 200,
+      "final_url": "https://proplogai.com/terms",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 70420
+    },
+    {
+      "url": "https://proplogai.com/tools",
+      "status": 200,
+      "final_url": "https://proplogai.com/tools",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 35754
+    },
+    {
+      "url": "https://proplogai.com/tools/consistency-calculator",
+      "status": 200,
+      "final_url": "https://proplogai.com/tools/consistency-calculator",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31533
+    }
+  ],
+  "images": [
+    {
+      "url": "https://proplogai.com/glossary/images/ai-trading-coach-review-loop-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/ai-trading-coach-review-loop-note.webp",
+      "content_type": "image/webp",
+      "bytes": 252898
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/average-win-vs-average-loss-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/average-win-vs-average-loss-note.webp",
+      "content_type": "image/webp",
+      "bytes": 290796
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/confirmation-bias-idea-evidence-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/confirmation-bias-idea-evidence-note.webp",
+      "content_type": "image/webp",
+      "bytes": 246016
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/consistency-breach-decision-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/consistency-breach-decision-note.webp",
+      "content_type": "image/webp",
+      "bytes": 254612
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/consistency-day-vs-trade-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/consistency-day-vs-trade-note.webp",
+      "content_type": "image/webp",
+      "bytes": 265446
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/consistency-ratio-change-example.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/consistency-ratio-change-example.webp",
+      "content_type": "image/webp",
+      "bytes": 247146
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/consistency-ratio-loss-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/consistency-ratio-loss-note.webp",
+      "content_type": "image/webp",
+      "bytes": 244282
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/daily-drawdown-floor-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/daily-drawdown-floor-note.webp",
+      "content_type": "image/webp",
+      "bytes": 336014
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/drawdown-performance-vs-rule-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/drawdown-performance-vs-rule-note.webp",
+      "content_type": "image/webp",
+      "bytes": 204596
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/emotion-tracking-feeling-urge-action-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/emotion-tracking-feeling-urge-action-note.webp",
+      "content_type": "image/webp",
+      "bytes": 238032
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/equity-curve-balance-vs-equity-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/equity-curve-balance-vs-equity-note.webp",
+      "content_type": "image/webp",
+      "bytes": 306770
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/expectancy-average-per-trade-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/expectancy-average-per-trade-note.webp",
+      "content_type": "image/webp",
+      "bytes": 239762
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/fomo-plan-vs-urge-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/fomo-plan-vs-urge-note.webp",
+      "content_type": "image/webp",
+      "bytes": 230638
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/funded-account-model-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/funded-account-model-note.webp",
+      "content_type": "image/webp",
+      "bytes": 312988
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/loss-aversion-check-decision-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/loss-aversion-check-decision-note.webp",
+      "content_type": "image/webp",
+      "bytes": 244692
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/overall-drawdown-static-moving-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/overall-drawdown-static-moving-note.webp",
+      "content_type": "image/webp",
+      "bytes": 306284
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/overconfidence-rule-change-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/overconfidence-rule-change-note.webp",
+      "content_type": "image/webp",
+      "bytes": 246540
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/pattern-recognition-clue-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/pattern-recognition-clue-note.webp",
+      "content_type": "image/webp",
+      "bytes": 263592
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/position-sizing-formula-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/position-sizing-formula-note.webp",
+      "content_type": "image/webp",
+      "bytes": 205560
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/pre-market-routine-london-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/pre-market-routine-london-note.webp",
+      "content_type": "image/webp",
+      "bytes": 282572
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/profit-factor-same-sample-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/profit-factor-same-sample-note.webp",
+      "content_type": "image/webp",
+      "bytes": 190798
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/profit-target-one-condition-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/profit-target-one-condition-note.webp",
+      "content_type": "image/webp",
+      "bytes": 231266
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/prop-firm-challenge-rule-sheet-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/prop-firm-challenge-rule-sheet-note.webp",
+      "content_type": "image/webp",
+      "bytes": 319754
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/revenge-trading-full-check.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/revenge-trading-full-check.webp",
+      "content_type": "image/webp",
+      "bytes": 206194
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/risk-per-trade-plan-vs-result-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/risk-per-trade-plan-vs-result-note.webp",
+      "content_type": "image/webp",
+      "bytes": 230604
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/risk-reward-planned-vs-realised-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/risk-reward-planned-vs-realised-note.webp",
+      "content_type": "image/webp",
+      "bytes": 215610
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/rule-based-trading-checkable-rule-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/rule-based-trading-checkable-rule-note.webp",
+      "content_type": "image/webp",
+      "bytes": 252536
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/setup-compliance-plan-vs-record-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/setup-compliance-plan-vs-record-note.webp",
+      "content_type": "image/webp",
+      "bytes": 263856
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/sharpe-ratio-same-inputs-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/sharpe-ratio-same-inputs-note.webp",
+      "content_type": "image/webp",
+      "bytes": 299546
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/stop-loss-trigger-fill-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/stop-loss-trigger-fill-note.webp",
+      "content_type": "image/webp",
+      "bytes": 228512
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/tilt-feeling-decision-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/tilt-feeling-decision-note.webp",
+      "content_type": "image/webp",
+      "bytes": 233526
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/trade-management-before-after-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/trade-management-before-after-note.webp",
+      "content_type": "image/webp",
+      "bytes": 275624
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/trade-review-decision-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/trade-review-decision-note.webp",
+      "content_type": "image/webp",
+      "bytes": 227750
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/trading-performance-report-two-questions-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/trading-performance-report-two-questions-note.webp",
+      "content_type": "image/webp",
+      "bytes": 357390
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/trading-plan-six-lines-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/trading-plan-six-lines-note.webp",
+      "content_type": "image/webp",
+      "bytes": 285282
+    },
+    {
+      "url": "https://proplogai.com/glossary/images/win-rate-same-sample-note.webp",
+      "status": 200,
+      "final_url": "https://proplogai.com/glossary/images/win-rate-same-sample-note.webp",
+      "content_type": "image/webp",
+      "bytes": 174420
+    }
+  ],
+  "failures": []
+}

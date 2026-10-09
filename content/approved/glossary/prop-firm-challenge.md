@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-prop-firm-challenge"
 revision: 1
 revision_hash: "6c9229b5f675dba4a78bf49d1bad37e903e7768b65a26735a78a89d24b4d298d"
 title: "Prop Firm Challenge"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Prop Firm Rules and Readiness"

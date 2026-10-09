@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-03-trading-expectancy-calculator"
 revision: 1
 revision_hash: "e907ea1565d77a4f0742e3cf8978041b61de510877952df5ee28f4898a705c1a"
 title: "Trading Expectancy Calculator: Check Your Average Result per Trade"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Performance Analytics"
 content_role: "Utility Guide"

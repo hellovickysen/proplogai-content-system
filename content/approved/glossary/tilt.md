@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-tilt"
 revision: 1
 revision_hash: "f94c1a5fb7cea1cb3d53ed54f57ed149278e5b3b68f85670b15618a284aacc04"
 title: "Tilt in Trading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Psychology"
 content_role: "Definition"

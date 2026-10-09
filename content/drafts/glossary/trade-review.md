@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-trade-review"
 revision: 1
 revision_hash: "80146736ee16fd511e6df2288ed852548134f11f6b0b733647d6db7b76f80058"
 title: "Trade Review"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Journal & Analysis"
 content_role: "Definition"

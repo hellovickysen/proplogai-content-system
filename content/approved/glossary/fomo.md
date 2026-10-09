@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-fomo"
 revision: 1
 revision_hash: "e6bc756dedccd3d4d3c41358e8f25d62197e6e489896aff68928a65c5073856f"
 title: "FOMO (Fear of Missing Out)"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Psychology"
 content_role: "Definition"

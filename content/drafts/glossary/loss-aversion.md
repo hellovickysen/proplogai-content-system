@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-loss-aversion"
 revision: 1
 revision_hash: "34f38ef9be7568ecee5a1641c41b97d69cc434a687d23586dbce85dd9f3c7291"
 title: "Loss Aversion"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Psychology"
 content_role: "Definition"

@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-revenge-trading"
 revision: 1
 revision_hash: "a209ba1c94320e45a8b598880dcc58fd716ad2e3c53386a3c39adb02f552153d"
 title: "Revenge Trading"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Psychology"
 content_role: "Definition"

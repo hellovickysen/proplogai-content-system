@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-06-trading-plan"
 revision: 1
 revision_hash: "cf361bc3060cb2ff7db721027134d035f689bc6ee53251b46a0fe46ddfba6311"
 title: "Trading Plan"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"

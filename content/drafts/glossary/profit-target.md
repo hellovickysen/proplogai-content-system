@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-profit-target"
 revision: 1
 revision_hash: "27c6e063a1f1459bb2acae512ff003e13e19797e67ee716dbe2214e20ab4e3f8"
 title: "Profit Target"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Prop Firm Rules"
 content_role: "Definition"

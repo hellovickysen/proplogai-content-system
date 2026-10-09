@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-04-trading-discipline-checklist"
 revision: 1
 revision_hash: "acb1ea2e7a3525f974b4a204ee669ba62849d6d15e54779495aaf2bcc4d24694"
 title: "Trading Discipline Checklist for Prop Firm Traders"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Trading Discipline"
 content_role: "Checklist utility"

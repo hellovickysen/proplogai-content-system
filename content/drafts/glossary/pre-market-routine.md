@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-pre-market-routine"
 revision: 1
 revision_hash: "b76f3b2359c0c494a386aeda568a6b33152af9eaec77b7d119e135ef3e2813f9"
 title: "Pre-Market Routine"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 content_role: "Definition"
 topic_cluster: "Trading Discipline and Rulebooks"

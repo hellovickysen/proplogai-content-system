@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-04-revenge-trading-prop-firm"
 revision: 1
 revision_hash: "5223346a718013c428176cc6fb0589ae4e543e718401dde5ef49c7dc8842dfc3"
 title: "How to Stop Revenge Trading After a Loss"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Trading Psychology"
 content_role: "Cluster support"

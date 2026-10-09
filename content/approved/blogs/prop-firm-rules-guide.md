@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-02-prop-firm-rules-guide"
 revision: 2
 revision_hash: "a99a308fc2a998f4e9c3fd287ecd2810099a2d89b82837927500e5e69026ff9b"
 title: "Prop Firm Rules: What to Check Before You Buy a Challenge"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Blog"
 category: "Prop Firm Rules"
 content_role: "Pillar"

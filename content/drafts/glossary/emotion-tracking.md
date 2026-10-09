@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-08-emotion-tracking"
 revision: 1
 revision_hash: "3100eb210bb85d2db634c3132479b3df5cac1ad61b643c388fb215086531d9e2"
 title: "Emotion Tracking"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Journal & Analysis"
 content_role: "Definition"

@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-05-position-sizing"
 revision: 1
 revision_hash: "45ca15e582c07a7739024d063bac9a830b045683cda4617e4cce678474345aee"
 title: "Position Sizing"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"

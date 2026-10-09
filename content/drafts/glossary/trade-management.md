@@ -3,7 +3,7 @@ item_id: "proplogai-2026-10-07-trade-management"
 revision: 1
 revision_hash: "b26f0eed1121ba04602137b70c5f4b60776c25f6bc79b727d452908a2deb7356"
 title: "Trade Management"
-status: "Approved to Publish"
+status: "Published"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"
