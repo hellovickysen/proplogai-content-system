@@ -1,9 +1,9 @@
 ---
 item_id: "proplogai-2026-10-05-risk-per-trade"
-revision: 1
-revision_hash: "26f61e2cee6a11f988b4e0f0d900dcf3f739a38ba9ea690d45670d47d2e3cf13"
+revision: 2
+revision_hash: "7d513c225f0beecf8b46d6102bae190fabfe2c6abd1c1f57ff7f9aace76ac951"
 title: "Risk Per Trade"
-status: "Published"
+status: "Approved to Publish"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"
@@ -16,19 +16,19 @@ keyword_evidence: "Current search review"
 keyword_market: "India / English"
 market_tier: "Primary"
 market_rationale: "PropLogAI's primary audience is India. Semrush India reported volume 20 and CPC $0 for risk per trade on 5 October 2026, with unavailable KD and intent. GSC returned 0 clicks and 0 impressions for queries containing risk per trade from 6 July through 3 October 2026."
-cannibalisation_status: "Reviewed — this glossary page owns the planned-loss definition; position sizing owns conversion into lot size; stop loss owns trigger and fill mechanics; the risk-management guide owns the wider workflow."
+cannibalisation_status: "Reviewed — this glossary page owns the planned-loss definition; position sizing owns the concise conversion concept; the calculator owns deterministic calculation; the guide owns the worked method; stop loss owns trigger and fill mechanics; and the risk-management guide owns the wider workflow."
 canonical_url: "https://proplogai.com/glossary/risk-per-trade"
 pillar_url: "https://proplogai.com/blogs/prop-firm-risk-management"
 seo_title: "Risk Per Trade: Meaning and Calculation Example"
 meta_description: "Understand risk per trade with a fictional $50 XAUUSD example, including planned risk, ticket estimate, realised loss, and prop-firm limits."
 slug: "risk-per-trade"
 author: "PropLogAI Editorial Team"
-last_updated: "2026-10-05"
+last_updated: "2026-10-09"
 source_checked: "2026-10-05"
 source_ids: [RES-013, PFR-002, PFR-006, PLAI-002]
 sources: [https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size, https://ftmo.com/en/trading-objectives/, https://help.fundednext.com/en/articles/8019914-what-is-the-maximum-daily-loss-limit, https://proplogai.com/]
 internal_link_status: "Verified in local render"
-internal_links: [https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/position-sizing, https://proplogai.com/glossary/daily-drawdown-limit, https://proplogai.com/glossary/overall-drawdown-limit, https://proplogai.com/blogs/prop-firm-risk-management]
+internal_links: [https://proplogai.com/tools/position-size-calculator, https://proplogai.com/blogs/how-to-calculate-position-size-forex, https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/position-sizing, https://proplogai.com/glossary/daily-drawdown-limit, https://proplogai.com/glossary/overall-drawdown-limit, https://proplogai.com/blogs/prop-firm-risk-management]
 seo_register_status: "Matched"
 internal_link_register_status: "Matched"
 product_mention: "One factual paragraph about manually recording trade details, notes and rule adherence."
@@ -46,10 +46,10 @@ qa_proplogai_alignment: 10
 qa_total: 99
 qa_decision: "PASS"
 human_review_status: "Approved"
-approved_revision: 1
-approved_revision_hash: "26f61e2cee6a11f988b4e0f0d900dcf3f739a38ba9ea690d45670d47d2e3cf13"
+approved_revision: 2
+approved_revision_hash: "7d513c225f0beecf8b46d6102bae190fabfe2c6abd1c1f57ff7f9aace76ac951"
 approved_by: "Vicky"
-approved_at: "2026-10-05T22:13:47+05:30"
+approved_at: "2026-10-09T14:57:38+05:30"
 ---
 
 # Risk Per Trade
@@ -91,6 +91,8 @@ The separate [position-sizing calculation](/glossary/position-sizing) is:
 **$50 ÷ $10 = 5 units of 0.01 lot = 0.05 lot**
 
 The numbers explain the connection between planned risk and size. They do not recommend $50, 0.5% or 0.05 lot.
+
+You can enter your own planned loss and platform values in the [forex position size calculator](/tools/position-size-calculator). Read the [position-size calculation guide](/blogs/how-to-calculate-position-size-forex) when you want the full XAUUSD and EURUSD examples.
 
 ## One trade amount does not replace the account rules
 

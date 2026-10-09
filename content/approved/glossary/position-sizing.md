@@ -1,9 +1,9 @@
 ---
 item_id: "proplogai-2026-10-05-position-sizing"
-revision: 1
-revision_hash: "45ca15e582c07a7739024d063bac9a830b045683cda4617e4cce678474345aee"
+revision: 2
+revision_hash: "f88d882cc4b42d1d495f41b628262472d5a61d5d4c1ddb6c355ae162f7afc834"
 title: "Position Sizing"
-status: "Published"
+status: "Approved to Publish"
 content_type: "Glossary"
 category: "Risk Management"
 content_role: "Definition"
@@ -16,19 +16,19 @@ keyword_evidence: "Current search review"
 keyword_market: "India / English"
 market_tier: "Primary"
 market_rationale: "Semrush India reports 590 monthly searches, difficulty 40, informational intent and CPC $0 for position sizing on 5 October 2026. Property-wide GSC has no current page or query signal."
-cannibalisation_status: "Reviewed — this page owns the definition and formula inputs; risk per trade owns the planned-loss input; the risk-management blog owns the wider workflow; a future calculator would own deterministic calculation."
+cannibalisation_status: "Reviewed — this page owns the definition and formula inputs; risk per trade owns the planned-loss input; the calculator owns deterministic calculation; the guide owns the worked method; and the risk-management blog owns the wider workflow."
 canonical_url: "https://proplogai.com/glossary/position-sizing"
 pillar_url: "https://proplogai.com/blogs/prop-firm-risk-management"
 seo_title: "What Is Position Sizing in Trading? | PropLogAI"
 meta_description: "Learn position sizing with a simple fictional XAUUSD example using planned USD risk, stop distance, platform contract details, and prop-firm limits."
 slug: "position-sizing"
 author: "PropLogAI Editorial Team"
-last_updated: "2026-10-05"
+last_updated: "2026-10-09"
 source_checked: "2026-10-05"
 source_ids: [RES-013, PLAI-002, PLAI-005]
 sources: [https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size, https://proplogai.com/]
 internal_link_status: "Verified in local render"
-internal_links: [https://proplogai.com/glossary/risk-per-trade, https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/daily-drawdown-limit, https://proplogai.com/glossary/overall-drawdown-limit, https://proplogai.com/blogs/prop-firm-risk-management]
+internal_links: [https://proplogai.com/tools/position-size-calculator, https://proplogai.com/blogs/how-to-calculate-position-size-forex, https://proplogai.com/glossary/risk-per-trade, https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/daily-drawdown-limit, https://proplogai.com/glossary/overall-drawdown-limit, https://proplogai.com/blogs/prop-firm-risk-management]
 seo_register_status: "Matched"
 internal_link_register_status: "Matched"
 product_mention: "One factual statement about recording trade details and whether the trade followed the trader's own rules."
@@ -46,10 +46,10 @@ qa_proplogai_alignment: 9
 qa_total: 99
 qa_decision: "PASS"
 human_review_status: "Approved"
-approved_revision: 1
-approved_revision_hash: "45ca15e582c07a7739024d063bac9a830b045683cda4617e4cce678474345aee"
+approved_revision: 2
+approved_revision_hash: "f88d882cc4b42d1d495f41b628262472d5a61d5d4c1ddb6c355ae162f7afc834"
 approved_by: "Vicky"
-approved_at: "2026-10-05T01:10:25+05:30"
+approved_at: "2026-10-09T14:57:38+05:30"
 ---
 
 # Position Sizing
@@ -68,6 +68,8 @@ Position sizing is the calculation used to choose the trade size so the estimate
 4. **Estimated loss per unit:** what one unit, contract, or 0.01 lot would lose if the stop filled at the expected price.
 
 `Position size = planned USD risk ÷ estimated loss per unit at the stop`
+
+When you have these inputs, use the [forex position size calculator](/tools/position-size-calculator). The [step-by-step position-size guide](/blogs/how-to-calculate-position-size-forex) shows the complete XAUUSD and EURUSD calculations.
 
 ## Fictional XAUUSD example
 
