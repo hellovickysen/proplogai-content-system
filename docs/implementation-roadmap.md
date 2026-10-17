@@ -1,10 +1,8 @@
 # PropLogAI Audit Implementation Roadmap
 
-- Baseline audit: 2026-09-19
-- Current audit score: 59/100
-- Audited scope: 24 blogs, 35 unique glossary pages, and 2 collection indexes
-- Open queue: 15 P1 actions and 2 P2 actions
-- Production status: no connection and no changes authorized
+- Baseline audit: 2026-09-19. The 59/100 score, 24-blog inventory, and 15 P1 / 2 P2 queue below describe that historical baseline, not today's production state.
+- Latest reconciliation: 2026-10-10, Batch K6. The original 16 G1 opportunities are accounted for: 15 released and one consolidated. The refresh queue now has 18 production-verified resolutions and four sitewide items still open or partial: useful source coverage, contextual cross-links, metadata outliers, and product-claim mapping.
+- Recent production releases are documented in `content-map/audit-logs/batch-k2-2026-10-09.md` through `batch-k5-2026-10-09.md`. New content and release decisions remain subject to exact-revision human review.
 
 ## Objective
 

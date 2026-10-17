@@ -1,0 +1,17 @@
+# K23 India search and ownership evidence — prop firm ROI
+
+Checked 16 October 2026 for the [existing ROI article](https://proplogai.com/blogs/prop-firm-roi-calculator). India / English is primary; all trading amounts use USD. This evidence supports a local editorial brief, not a new keyword-volume or product-performance claim.
+
+| Source | Observation | Limit |
+| --- | --- | --- |
+| [Search Console exact page, India, Web](https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fproplogai.com%2F&country=ind&page=!https%3A%2F%2Fproplogai.com%2Fblogs%2Fprop-firm-roi-calculator), 14 July–13 October 2026 | 0 clicks, 0 impressions and no query rows. Report updated about 4.5 hours before inspection. | This is page performance, not keyword demand. Position is unavailable without impressions. |
+| Same exact page, country filter removed | 0 clicks, 9 impressions, 0% CTR and average position 11.3. No visible query rows. | Global figures cannot be assigned to India or a particular query. |
+| [Signed-in Semrush India Desktop, `prop firm roi calculator`](https://1.semrush.com.in/analytics/keywordoverview/?q=prop+firm+roi+calculator&db=in) | India volume, difficulty, intent and CPC displayed `n/a`. | `n/a` is not zero demand. Global volume was visible but is not an India estimate. The first browser attempt disconnected; a new signed-in tab loaded the metric panel successfully. |
+
+The [live article](https://proplogai.com/blogs/prop-firm-roi-calculator) has one H1, a 9 July 2026 publication date and 2 October 2026 updated date. It explains the correct broad idea of counting failed challenges as costs, with a $575 spend and $600 received-payout example. It currently repeats the formula, calls the result “real ROI” without defining the boundary of included costs, gives no zero-cost case, and has no contextual glossary link. The untouched local source SHA-256 is `7DFE58B2B971AC18C4D7A8D900BB62E07EC59E469825C0B9474AFFA7B2C05394`.
+
+The [expense tracking guide](https://proplogai.com/blogs/prop-firm-expense-tracking-guide) owns recording purchases, refunds and payouts. The [payout rules guide](https://proplogai.com/blogs/prop-firm-payout-rules) owns payout stages and eligibility. K23 should own the calculation from those records, including what the result does and does not include. The existing SEO register already maps `prop firm ROI calculator` to this URL as an **editorial hypothesis**. No observed India data supports a slug change.
+
+First-party claim register `PLAI-006` allows expense/payout records and ROI information from entered amounts; it is due for review on 19 October 2026. The local app has a signed-in `/dashboard/prop-expenses` expense tracker and per-firm payout/expense totals. Its public `/tools` routes contain a probability analyzer, position-size calculator and consistency calculator; no standalone ROI calculator route was found. The article must not claim an existing dedicated ROI calculator, automatic reconciliation, a firm-attempt linkage, audited accounting or tax reporting. Recheck public product wording at implementation.
+
+**Decision:** retain `/blogs/prop-firm-roi-calculator`, but make the page actually satisfy calculator intent with an accessible USD input-and-result worksheet or carefully labelled manual calculator. Keep the registered keyword as an intent hypothesis until India demand and a matched SERP can be measured. No article source or live page changed during this brief.

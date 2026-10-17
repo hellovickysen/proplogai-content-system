@@ -1,0 +1,39 @@
+# K12 revision brief 1 — forex risk management
+
+**State:** Prepared for Vicky's review on 11 October 2026. This is a local audit and revision plan; the article is unchanged and this brief does not authorize publication.
+
+## Page and reader
+
+- Existing page: [What Is Risk Management in Forex Trading?](https://proplogai.com/blogs/prop-firm-risk-management). **Keep `/blogs/prop-firm-risk-management`** and the original 15 July 2026 publication date. No redirect is justified. Add an honest update date when the article changes.
+- Reader: an English-speaking trader in India who has a London-session XAUUSD setup but wants to understand what “risk management” means before opening a trade or buying a prop-firm challenge. Use simple, direct English and USD (`$`), not INR. Explain any necessary trading term at first use.
+- Search task: understand **how to plan one trade's risk, check all open exposure and today's loss room, and compare those plans with a firm's exact rules**. The [K12 India evidence note](keyword-research/k12-forex-risk-management-india-2026-10-11.md) records zero India GSC impressions for this page and Semrush Server 4's India estimate of 260 monthly searches, KD 37%, Informational for `forex risk management`. This is an update to the existing risk pillar, not a new URL or a ranking promise.
+- Proposed title/meta title: **Forex Risk Management: What to Check Before a Trade**. Proposed description: **“Plan risk for each forex trade, check your daily loss room, and understand what a stop-loss can and cannot do. See a clear fictional XAUUSD example.”** Check title and description length in the rendered page before implementation.
+- Set the source category/silo to the already-approved **Risk Management / Risk and Drawdown**. The current source still says General Forex Education. Keep the article as the risk pillar; do not let it take over the dedicated position-size, drawdown-calculator or prop-firm-rules intents.
+
+## Corrections required
+
+1. Remove **“I can't lose more than this”** and any equivalent promise about a stop-loss. A normal stop is a planned exit, while actual fill, spread and costs may change the loss. Link the [stop-loss definition](https://proplogai.com/glossary/stop-loss) and cite [FTMO's execution explanation](https://ftmo.com/en/blog/slippage-order-execution/) for that limitation. Do not imply a stop is useless or claim a particular slippage amount is typical.
+2. Remove the conclusion's promise that the process **keeps a bad trade, day or stretch from ending an account**. Risk checks can reduce avoidable surprises; they cannot guarantee a bounded actual loss, account survival, an edge or a passing result.
+3. Replace the universal “entry-stop gap × position size” wording with a conceptually correct check: instrument value/units, entry, stop, expected costs and account currency determine the estimated USD amount. Let the [position-size calculation guide](https://proplogai.com/blogs/how-to-calculate-position-size-forex) own exact formula and the [position-size tool](https://proplogai.com/tools/position-size-calculator) handle inputs; verify current tool behaviour before making a feature claim.
+4. Treat personal planned limits and **firm-defined** daily/overall boundaries separately. Explain that a firm may count floating P&L and costs and can reset on a different clock. FTMO's [current objectives](https://ftmo.com/en/trading-objectives/) show its own programs vary; do not state any percentage or breach consequence as universal. Link the [daily drawdown](https://proplogai.com/glossary/daily-drawdown-limit) and [overall drawdown](https://proplogai.com/glossary/overall-drawdown-limit) definitions and point to the rules guide for exact-program details.
+5. Narrow product copy to approved manual journal details, notes, rule-following tags, dashboard metrics and P&L calendar (PLAI-002–005). Do not assert automatic risk-limit checks, original-stop audit, broker-verified loss, or compliance proof.
+6. Remove unsupported generalizations about what “most traders” do, any implied universal stop placement or fixed risk percentage, and the two unlinked article-title references unless their URLs and relevance can be verified.
+
+## Teaching flow for article revision 1
+
+1. Open with a trader's real moment: you see an XAUUSD London breakout, like the setup in your own plan, and feel ready to enter. Ask three short questions: **What loss am I planning for this trade? What is already at risk today? What does my exact account permit?** This is a fictional teaching moment, not a signal or suggested entry.
+2. Show a small **three-level risk note**: one trade; combined open positions and today's closed losses; account-wide rule. Put it near the top as copyable text. Use “not checked” if the official formula or reset time is unknown.
+3. Explain planned risk with a fictional XAUUSD journal record. A simple example may use planned loss **$50** and actual recorded loss **$58** after a worse fill and costs. State that the extra **$8** is fictional, not a typical slippage estimate. The point is the difference between **planned** and **actual**, not a position-sizing recipe. Avoid live-market price claims and lot-size assumptions.
+4. Explain what a stop-loss can and cannot do in plain language. Give a short “before / after” comparison: before entry, record the intended stop and estimated USD risk; after exit, compare the actual fill and total cost. Do not infer whether the stop was moved if the original value was not recorded.
+5. Add a fictional daily-risk illustration only if it makes the combined-exposure point clearer. The arithmetic must be independently checked, and the firm example must be labelled fictional rather than presented as a typical rule. Explain that open P&L and reset times are firm-specific. Link the existing [daily drawdown calculator guide](https://proplogai.com/blogs/daily-drawdown-calculator) for a fuller rule example.
+6. End with a calm pre-trade review: check the plan and input values; check all open exposure and today's recorded P&L; check the exact firm's current rule page; record what happened afterward. Avoid “you will stay safe” or “you cannot breach” language.
+
+## Visual and link plan
+
+- Use a separate readable 16:9 handwritten-style WebP cover. Teach progressively with up to three 1:1 handwritten notes: (1) three risk questions, (2) planned versus actual XAUUSD dollars, (3) a filled review with one unknown firm-rule field. Each note should carry one idea, read at mobile width, and use tap-to-zoom. An interactive calculator inside this article is unnecessary because the existing tool already serves that task.
+- Link first useful mentions to [risk per trade](https://proplogai.com/glossary/risk-per-trade), [stop loss](https://proplogai.com/glossary/stop-loss), [position sizing](https://proplogai.com/glossary/position-sizing), [daily drawdown limit](https://proplogai.com/glossary/daily-drawdown-limit), and [overall drawdown limit](https://proplogai.com/glossary/overall-drawdown-limit) where they appear. Link the position-size guide, daily-drawdown guide, and prop-firm-rules guide at the reader's next useful question. Reconcile exact anchors in the link register during implementation; do not mark local links live before deployment.
+- Keep one H1, BlogPosting/BreadcrumbList schema, original publication date, honest updated date, USD examples, and the existing page layout. If a multi-column comparison is used, let its table scroll horizontally on a 390 px viewport without page overflow.
+
+## Review gate
+
+**Approve or amend this brief first.** Once the brief is approved, implement the article locally, check all arithmetic and claims, render desktop and 390 px mobile views, run the blog and content-system validators, record the exact source hash, and provide a verified localhost article link for Vicky's revision review. Keep this work local for the combined release.

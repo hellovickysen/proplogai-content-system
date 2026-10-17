@@ -1,0 +1,35 @@
+# K27 technical and India search audit
+
+**State:** Read-only live check completed 17 October 2026. K26 is approved locally. No article, glossary URL, Git remote, or production deployment changed in K27.
+
+## Decision
+
+Keep the existing blog and glossary URLs. The fresh crawl found no sitewide metadata, canonical, H1, structured-data, or mobile-table failure that warrants a migration. India search evidence points first to **improving the existing overtrading cluster**, not opening another article. The next focused content brief should map “what is overtrading” to the glossary and “how to avoid overtrading” to the existing prop-firm prevention article, then check whether its title, opening answer, examples, and links actually serve that task.
+
+## Live technical baseline
+
+The 17 October crawler fetched both content sitemaps and all **67 unique listed URLs**: 30 blog articles, 35 glossary terms, and their two indexes. Every fetched URL returned 200. There were no duplicate sitemap URLs, redirect chains, missing or mismatched self-canonicals, missing descriptions, missing H1s, missing structured-data blocks, or images without alt text in this crawl. This is a live *content-sitemap* count, not the whole-site page count. [CSV crawl evidence](/k27-live-crawl) and [sitemap records](/k27-sitemaps) are local working files.
+
+Every blog/glossary destination in the crawled internal-link graph maps to one of those 67 content URLs. Other linked destinations include the main app, login, tools, trading-journal page, downloads and glossary letter fragments; their full behavior was outside this content-page crawl. Several live blog bodies show zero glossary links, but K26 already found the approved **local** builds have 131 blog-to-glossary links. Do not mistake the production snapshot for the unreleased local revision, and do not add links to meet a quota.
+
+Metadata length is an editorial review signal, not an automatic error. Eleven blog titles exceed 70 characters, including the beginner guide (95) and AI discipline article (90). Fourteen glossary descriptions and three blog descriptions exceed 160 characters. The descriptions are present and their pages are canonical; review how they appear in real search results before shortening useful reader-first wording. Do not change the URLs to address snippet length.
+
+At a real **390px** Chrome viewport, the live overtrading, consistency-calculator and position-size articles plus the consistency-rule and position-sizing glossary pages all returned 200 with no page-script errors or document-wide horizontal overflow. Four article/term tables measured 342–350px wide with 560–576px of content and were horizontally scrollable inside the article. Position sizing had no table. [Mobile QA data](/k27-mobile) is local. This is a representative five-page check, not a claim that every mobile viewport and table has been tested.
+
+## Search Console, India
+
+The signed-in [Search Console URL-prefix property](https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fproplogai.com%2F) was accessible in the browser. The domain property was not accessible to this signed-in account; the GSC Wizard connector reported `payment_required`, so the browser property supplied the evidence. Web search, India, **15 July–14 October 2026** showed **2 clicks, 69 impressions, 2.9% CTR, average position 61.8**. The sitewide unfiltered view showed 6 clicks and 579 impressions. Small counts and Search Console's hidden/aggregated query rows limit page-level inference.
+
+Visible India queries were “overtrading” (15 impressions), “what is overtrading” (5), “meaning of overtrading” (3), “prop firm trading journal” (2), and five one-impression queries including “consistency calculator” and “drawdown limit.” The visible India pages were [overtrading glossary](https://proplogai.com/glossary/overtrading) (25 impressions), [consistency calculator article](https://proplogai.com/blogs/prop-firm-consistency-calculator) (2), [funded-account journal article](https://proplogai.com/blogs/forex-journal-funded-accounts) (2), and drawdown/consistency glossary pages (1 each). Page-row clicks were zero despite the aggregate two clicks; do not assign those clicks to an individual URL.
+
+The submitted [sitewide sitemap index](https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fproplogai.com%2F) was **Success**, last read 14 October, with 78 discovered pages. Its count includes sitewide pages beyond the 67 blog/glossary content URLs. The [indexing report](https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fproplogai.com%2F), last updated 12 October, showed 74 indexed and 13 not indexed: seven redirect URLs, three discovered but not indexed, three crawled but not indexed. The latter examples include the revenge-trading article (last crawled 13 August), trading-journal-fields (20 July), and the blog RSS feed (20 July). The discovered examples include the payout-rules article and two glossary terms, with no crawl date. Because the report predates the latest releases and the article crawl dates are old, inspect those exact URLs again after the combined release; an old status alone does not prove the current copy is unindexable. The RSS feed is not an article to optimize for indexing.
+
+## Semrush India and ownership
+
+The user's active NoxTools Semrush Server 1 opened successfully. [Semrush India “overtrading”](https://1.semrush.com.in/analytics/keywordoverview/?db=in&q=overtrading) estimated **260 monthly searches**, 41% keyword difficulty, and informational intent on 17 October. [“How to avoid overtrading”](https://1.semrush.com.in/analytics/keywordoverview/?db=in&q=how%20to%20avoid%20overtrading) estimated **110 monthly searches**, 27% difficulty, and informational intent. Its India SERP mixed general stock/day-trading and prevention pages, including Indian broker education and a day-trading discussion. These are third-party estimates, not PropLogAI traffic, and do not by themselves establish a new prop-firm keyword.
+
+The definition intent belongs to `/glossary/overtrading`. The prevention task belongs to `/blogs/overtrading-prop-firm-challenges`, with natural links to the discipline checklist, revenge-trading guide, and glossary. Before any edit, compare the approved local article against that exact task and confirm it is not repeating an already-complete answer. Keep forex examples in USD and specific sessions/setups where they help the trader. A new URL needs evidence of a separate reader problem; this pass did not find it.
+
+## Next review gate
+
+Prepare one focused **K28 overtrading-cluster brief**: current local copy, query-to-URL map, live snippet/intro comparison, proposed on-page adjustments only if needed, and a final check of whether local links already cover the next reader question. Preserve existing URLs. Separately queue URL inspection of the five relevant non-indexed article/glossary examples after the combined release, when Google has had a chance to recrawl. No validation request, push, or publication is part of K27.

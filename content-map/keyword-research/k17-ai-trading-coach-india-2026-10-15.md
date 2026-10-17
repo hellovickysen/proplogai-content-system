@@ -1,0 +1,19 @@
+# K17 India search and source evidence — AI trading coach pillar
+
+Checked 15 October 2026 for the existing [AI trading coach article](https://proplogai.com/blogs/ai-trading-coach-prop-firm). India / English is the primary market. Estimates below are tool estimates, not measured PropLogAI traffic or ranking.
+
+## Search evidence and access
+
+- Ubersuggest authenticated on its free tier and resolved **India** as country location ID `2356`. India/English keyword overview returned **`ai trading coach`: 10 estimated monthly searches, SEO difficulty 13, CPC $0, intent unlabelled**. It returned **`ai trading coach for forex`: 0 estimated monthly searches, difficulty 4**, which is a tool estimate rather than proof of no demand. **`ai trading journal`: 70 estimated monthly searches, difficulty 14, CPC $0, intent unlabelled**. This broader journal phrase belongs to the journal/product cluster and should not be assigned to the coach pillar as its primary keyword.
+- Exact lookups for `ai trading coach for prop firm traders` and `ai trading coach for traders` were blocked by the Ubersuggest free account's **three daily reports** limit. No volume, difficulty or intent is claimed for those phrases. A paid Ubersuggest plan raises the report limit; a new free-account report can be tried after the daily reset. [Plan details](https://app.neilpatel.com/en/pricing).
+- GSC Wizard's property-list request returned `payment_required` because its trial/subscription is inactive. Semrush Keyword Analytics returned `no_api_units` despite an active subscription. These are access limits, not zero impressions or a Semrush keyword result. The older K9 India GSC snapshot is historical and shows no page-specific opportunity for this pillar.
+
+## Current page and ownership
+
+- Opened the [live article](https://proplogai.com/blogs/ai-trading-coach-prop-firm) and [AI Trading Coach glossary](https://proplogai.com/glossary/ai-trading-coach) in the browser on 15 October. The article has one H1, published 9 July 2026 and updated 21 September 2026. The local article is the same older text. Its claim that AI detects named emotional/session patterns and makes reviews faster is broader than approved product claims without a visible worked record check.
+- The live glossary owns the short definition and an **Ask → Check → Verify → Decide** example. K8 [AI discipline](https://proplogai.com/blogs/ai-trading-discipline) owns plan-following decisions, and K9 [journal pattern detection](https://proplogai.com/blogs/ai-journal-pattern-detection) owns counting/correcting a small sample. The pillar should own **what an AI journal coach is for, what information to supply, how to verify an answer, and what it must not decide**.
+- The [current homepage](https://proplogai.com/) was opened on 15 October. It still includes unsupported outcome statistics, prescriptive sample advice and feature-limit copy flagged in the K7 local correction. Treat those live marketing examples as **unapproved** for K17. The approved product claim register limits K17 copy to PLAI-001/002/005: journal-data pattern review, manual trade/notes/emotion/setup records, and recording whether the trader followed their own rules. No broker sync, live intervention, diagnosis, automatic official-rule verification or profitability claim.
+
+## Decision
+
+Keep `/blogs/ai-trading-coach-prop-firm`, its 9 July 2026 publication date and its AI Coaching and Journal Analytics pillar role. The observed India head phrase supports the topic modestly; no current page-level GSC data or SERP evidence justifies a redirect. Use `AI trading coach` naturally and explain that this article means a **coach that reviews your own journal**, not a signal or market-prediction tool. The narrower prop-firm variant remains an editorial audience descriptor until measured data is available. Recheck keyword evidence and the official product flow before release.
