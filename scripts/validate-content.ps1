@@ -187,7 +187,13 @@ foreach ($row in $seoRows) {
     foreach ($field in @('item_id','url','canonical_url','category','primary_keyword','supporting_keywords','search_intent','content_role','topic_cluster','pillar_url','pillar_status','paired_content_urls','keyword_evidence','keyword_market','keyword_checked_on','canonical_action','priority')) {
         if ([string]::IsNullOrWhiteSpace([string]$row.$field)) { Error "SEO register row '$($row.item_id)' is missing '$field'" }
     }
-    if ($row.url -notmatch '^https://proplogai\.com/' -or $row.canonical_url -ne $row.url) { Error "SEO register row '$($row.item_id)' has invalid URL ownership" }
+    $redirectRecord = $row.content_status -in @('redirected','redirect_error')
+    $canonicalOwner = @($seoRows | Where-Object { $_.url -eq $row.canonical_url -and $_.content_status -eq 'live' })
+    if ($row.url -notmatch '^https://proplogai\.com/' -or (
+        $redirectRecord -and ($row.canonical_url -eq $row.url -or $canonicalOwner.Count -ne 1)
+    ) -or (
+        -not $redirectRecord -and $row.canonical_url -ne $row.url
+    )) { Error "SEO register row '$($row.item_id)' has invalid URL ownership" }
     if ($row.pillar_url -notmatch '^https://proplogai\.com/') { Error "SEO register row '$($row.item_id)' has an invalid pillar URL" }
     if ($row.pillar_status -notin @('Current','Interim','Planned')) { Error "SEO register row '$($row.item_id)' has invalid pillar_status '$($row.pillar_status)'" }
     if ($row.keyword_evidence -notin @('GSC India','Current search review','GSC India + current search review','Editorial hypothesis')) { Error "SEO register row '$($row.item_id)' has invalid keyword_evidence '$($row.keyword_evidence)'" }
