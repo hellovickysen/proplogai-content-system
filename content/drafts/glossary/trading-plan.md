@@ -1,9 +1,9 @@
 ---
 item_id: "proplogai-2026-10-06-trading-plan"
-revision: 1
-revision_hash: "cf361bc3060cb2ff7db721027134d035f689bc6ee53251b46a0fe46ddfba6311"
+revision: 2
+revision_hash: "4779080f1bbb8a9edc312f47753b11fb24b3bf587faf9b8d7141da26930030d2"
 title: "Trading Plan"
-status: "Published"
+status: "Human Review"
 content_type: "Glossary"
 category: "Trading Discipline"
 content_role: "Definition"
@@ -23,12 +23,12 @@ seo_title: "What Is a Trading Plan? Simple XAUUSD Example"
 meta_description: "Learn what belongs in a trading plan, see a simple XAUUSD London-session example, and understand the difference between a plan, rule and checklist."
 slug: "trading-plan"
 author: "PropLogAI Editorial Team"
-last_updated: "2026-10-07"
+last_updated: "2026-10-18"
 source_checked: "2026-10-06"
 source_ids: [RES-011, RES-025, PLAI-002, PLAI-005]
 sources: [https://zerodha.com/varsity/chapter/your-trading-checklist/, https://www.ig.com/en/ig-academy/planning-and-risk-management/what-is-a-trading-plan, https://proplogai.com/]
 internal_link_status: "Verified in draft"
-internal_links: [https://proplogai.com/glossary/rule-based-trading, https://proplogai.com/glossary/setup-compliance, https://proplogai.com/glossary/pre-market-routine, https://proplogai.com/glossary/position-sizing, https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/trading-journal, https://proplogai.com/glossary/trade-review, https://proplogai.com/blogs/prop-firm-trading-rulebook, https://proplogai.com/blogs/trading-discipline-checklist, https://proplogai.com/blogs/trading-discipline-prop-firm]
+internal_links: [https://proplogai.com/glossary/rule-based-trading, https://proplogai.com/glossary/setup-compliance, https://proplogai.com/glossary/pre-market-routine, https://proplogai.com/glossary/position-sizing, https://proplogai.com/glossary/stop-loss, https://proplogai.com/glossary/trading-journal, https://proplogai.com/glossary/trade-review, https://proplogai.com/glossary/trade-management, https://proplogai.com/blogs/prop-firm-trading-rulebook, https://proplogai.com/blogs/trading-discipline-checklist, https://proplogai.com/blogs/trading-discipline-prop-firm]
 seo_register_status: "Matched"
 internal_link_register_status: "Matched"
 product_mention: "Verified manual trade records and trader-entered rule adherence only; PropLogAI does not define or enforce the plan."
@@ -45,11 +45,11 @@ qa_internal_linking: 10
 qa_proplogai_alignment: 10
 qa_total: 99
 qa_decision: "PASS"
-human_review_status: "Approved"
-approved_revision: 1
-approved_revision_hash: "cf361bc3060cb2ff7db721027134d035f689bc6ee53251b46a0fe46ddfba6311"
-approved_by: "Vicky"
-approved_at: "2026-10-07T11:46:58+05:30"
+human_review_status: "Pending"
+approved_revision: ""
+approved_revision_hash: ""
+approved_by: ""
+approved_at: ""
 ---
 
 # Trading Plan
@@ -64,7 +64,7 @@ The plan guides your decision. It does not predict the next market move or guara
 2. **Setup:** the named situation you are waiting for and the conditions that define it.
 3. **Entry:** what must happen before you can act.
 4. **Risk:** the planned [stop loss](/glossary/stop-loss), USD loss limit and [position-sizing](/glossary/position-sizing) method.
-5. **Exit or management:** what your plan allows after entry.
+5. **Exit or [trade management](/glossary/trade-management):** what your plan allows after entry.
 6. **Record and review:** what you will save in your [trading journal](/glossary/trading-journal) and check later.
 
 ## A simple fictional XAUUSD plan

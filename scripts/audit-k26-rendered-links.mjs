@@ -7,7 +7,7 @@ const worktrees = resolve(root, '..');
 const blog = join(worktrees, 'proplogai-blog');
 const glossary = join(worktrees, 'proplogai-glossary');
 const { parse } = await import(pathToFileURL(join(blog, 'node_modules/parse5/dist/index.js')).href);
-const output = join(root, 'content-map/k26-rendered-link-inventory-2026-10-17.csv');
+const output = process.argv[2] ? resolve(process.argv[2]) : join(root, 'content-map/k26-rendered-link-inventory-2026-10-17.csv');
 
 function attrs(node) {
   return Object.fromEntries((node.attrs || []).map(({ name, value }) => [name, value]));
