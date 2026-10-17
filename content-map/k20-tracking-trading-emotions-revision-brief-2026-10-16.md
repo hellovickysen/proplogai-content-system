@@ -1,0 +1,31 @@
+# K20 revision brief 1 — tracking trading emotions
+
+**State:** Local brief for Vicky's review, 16 October 2026. The article source and production page are unchanged. [Read the K20 India evidence](keyword-research/k20-trading-emotions-india-2026-10-16.md).
+
+## Reader, task and ownership
+
+- Reader: you planned an XAUUSD London-session breakout. As price approaches your level, you feel an urge to enter before your written check is complete. You want a quick record that will help you review what you did later, without writing a diary. Speak directly to this trader in very simple English. India / English is primary; P&L remains in USD (`$`).
+- One task: show **when and how to record a feeling beside the plan and action**, and how to look across several entries for a question worth checking. A feeling is a clue to examine, not proof that it caused an entry or a loss.
+- Keep [the existing tracking-trading-emotions URL](https://proplogai.com/blogs/tracking-trading-emotions), its 7 July 2026 publication date, the Trading Psychology category and cluster-support role under [the psychology pillar](https://proplogai.com/blogs/trading-psychology-prop-firm). Current India evidence does not justify a URL migration. Set an honest new updated date only when the article changes.
+- Proposed H1: **How to Track Your Trading Emotions**. Proposed meta title: **How to Track Trading Emotions in Your Journal**. Proposed description: **“Use one XAUUSD trade to record your feeling, urge, plan and action. Then review several entries without guessing that emotion caused the result.”** Verify length, uniqueness, rendered title and canonical during implementation.
+
+## What the revision must teach
+
+1. Open in the moment: “The XAUUSD breakout is close. You want to enter now, but your planned check has not happened.” Explain **breakout** in plain words at first use and link a reviewed glossary entry if available. Avoid a live price, entry signal or suggested trade.
+2. Give the trader a tiny repeatable record, not a fixed universal form: **when** (before entry or after exit, labelled clearly), **feeling** (a short word in the trader's own language), **urge** (what they wanted to do), **plan** (the written condition), **action** (what they actually did), and optionally **net $ result** afterward. Use the same point in the workflow each time so entries can be compared. A short free-text note is acceptable; do not mock diaries or impose a five-to-eight-tag rule.
+3. Show one fictional XAUUSD London breakout from first urge to later review. For example, the trader feels rushed and wants to enter before a candle closes; the planned check is to wait for that close. Show two possible actions—wait or enter early—without treating either P&L outcome as proof of discipline. Keep numbers minimal and mathematically consistent if used.
+4. Show the difference between **recording** and **explaining**: “I wrote ‘rushed’ and entered early” is an observation; “rushing made me lose” is a causal claim the journal alone cannot prove. A calm entry can still break a rule. A rushed feeling can be noticed without the trader breaking the rule.
+5. Teach a short review across several entries: compare the same setup/session and written check, look for repeated plan deviations, then decide what question to investigate next. Do not claim that a few tags reveal statistical significance, predict future trades, or diagnose a trader. Include an honest “not enough entries yet” outcome.
+6. Link the concise [emotion-tracking definition](/glossary/emotion-tracking) on first useful mention; explain other necessary jargon in simple words and link a reviewed glossary entry where it helps. Use the [psychology pillar](/blogs/trading-psychology-prop-firm) for the bigger picture, [journal fields](/blogs/trading-journal-fields) for choosing the rest of a record, and [journal template](/blogs/trading-journal-template) only if the reader wants a reusable form. Do not copy those pages' full lessons.
+7. Verify every PropLogAI feature statement against the current approved product-claim register and first-party UI. Avoid promising automatic emotion detection, causal analysis, broker sync, firm-rule breach detection or an AI verdict. Keep any product mention brief and factual.
+
+## Teaching design and SEO
+
+- Flow: **recognise the urge → write the plan and feeling → record the action → add the result separately → review several similar records → choose one question**. Cut repeated diary-versus-log arguments and keep paragraphs short. The article should sound like a patient trader explaining a habit, not a behavioural-science lecture.
+- Use a handwritten **16:9 WebP cover** with one XAUUSD journal note and an unfinished “wait for close?” check. Two or three progressive **1:1 WebP notes** can show (1) the urge beside the plan, (2) the actual action and later `$` result, and (3) the full record with a review question. Each step must be useful alone, with the complete view last. Check legibility at 390 px and tap-to-zoom. No interactive feature is required. If any table is necessary, keep it wide and horizontally scrollable on mobile.
+- One H1, self-canonical, natural `how to track trading emotions` wording near the answer and in a useful heading. The exact phrase has no Semrush India volume/KD estimate and the page has no India-filtered GSC impressions in the checked 3-month window. Do not imply measured demand or promise rankings. Preserve the URL and keep the broad “control emotions” intent with the pillar rather than competing for it here.
+- During implementation, check exact live/preview destinations and useful anchor text. Reconcile only K20's outgoing-link register rows; note reciprocal-link gaps without silently changing approved K15/K19 pages. Keep the glossary's definition distinct from the blog's workflow.
+
+## Review gate
+
+Approve or amend **this brief** first. After brief approval, revise only the local K20 article, verify first-party product claims and selected visuals, run the Astro build and both content-system validators, check desktop and 390 px mobile layout plus image zoom and any table scrolling, record the exact article SHA-256, and provide a verified localhost article URL for review. Keep all other approved article revisions untouched. No push, merge or deployment is part of K20 drafting.

@@ -9,12 +9,13 @@ Categories are reader-facing shelves. Topic clusters define search ownership and
 
 | Category | Topic cluster | Current pillar owner | Pillar status | Blog responsibility | Glossary responsibility |
 |---|---|---|---|---|---|
+| General Forex Education | Forex Trading Basics for Disciplined Traders | `/blogs/forex-trading-for-beginners` | Current | Introduce instruments, trade plans, risk and a practice path before a prop-firm challenge; hand off detailed risk, rules and readiness tasks to their owners | Link only reviewed definitions at the first useful trading term; do not duplicate the full beginner path |
 | Journaling | Trading Journaling and Reviews | `/blogs/prop-firm-trading-journal` | Current | Workflows, fields, templates, review cadence, funded-account use | Definitions of journal, review, emotion tracking, reports, and journal analysis |
 | Discipline | Trading Discipline and Rulebooks | `/blogs/trading-discipline-prop-firm` | Current | Rulebooks, compliance review, routines, breach prevention, overtrading workflows | Concise definitions of plans, compliance, routines, trade management, and rule-based trading |
 | Psychology | Trading Psychology and Emotions | `/blogs/trading-psychology-prop-firm` | Current | Practical recognition and review of behaviour without diagnosis or promises | Definitions of FOMO, revenge trading, tilt, biases, and emotion concepts |
 | Prop Firm Rules | Prop Firm Rules and Readiness | `/blogs/prop-firm-challenge-readiness` | Interim | How to read rules, prepare, compare rule types, and check current firm sources | Variation-aware definitions of challenge, account, targets, and consistency rules |
 | Risk Management | Risk and Drawdown | `/blogs/prop-firm-risk-management` | Current | Risk-review methods, drawdown explanations, and formula assumptions | Definitions of drawdown, position sizing, stop loss, and risk ratios |
-| Performance Analytics | Trading Performance Metrics | `/blogs/trading-performance-metrics` | Planned | How to interpret metrics together without treating P&L as discipline | Definitions and formulas for win rate, profit factor, expectancy, Sharpe ratio, and equity curve |
+| Performance Analytics | Trading Performance Metrics | `/blogs/trading-performance-metrics` | Current | How to interpret metrics together without treating P&L as discipline | Definitions and formulas for win rate, profit factor, expectancy, Sharpe ratio, and equity curve |
 | Costs and Payouts | Prop Firm Costs, Payouts, and ROI | `/blogs/prop-firm-expense-tracking-guide` | Current | Cost records, payout evidence, ROI assumptions, and failed-attempt accounting | Only stable concepts that can be defined without pretending firm rules are universal |
 | AI Coaching | AI Coaching and Journal Analytics | `/blogs/ai-trading-coach-prop-firm` | Current | Responsible analysis of a trader's own journal data and coaching boundaries | Definitions of AI coach, pattern recognition, and report concepts |
 
