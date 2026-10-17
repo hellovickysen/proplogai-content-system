@@ -1,6 +1,6 @@
 # K33 locally approved revision
 
-Vicky approved the K33 local review on 18 October 2026. The reviewed changes are still local. This approval records acceptance of the revision shown at `/k33-audit`; it is not `Approved to Publish` and does not authorize a Git push, pull request, merge or deployment.
+Vicky approved the K33 local review on 18 October 2026. Separate authorization then covered pushing three K33 branches and opening PRs for review. This is not the content-system `Approved to Publish` state. The PRs remain unmerged and no production deployment has occurred.
 
 ## Review scope
 
